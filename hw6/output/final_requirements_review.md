@@ -15,7 +15,7 @@ Reviewed all ten assignment pages, both panels on Problems 1–9, the scenario, 
 | **7 — Red team** | Two novel hiding locations—an inert HTML template and a folded email header—have four measured runs and browser/Mail review. Both original and defended agents resisted both attacks. These are novel attempts, not demonstrated successful exploits. Covered locally. |
 | **8 — Exam** | Ten final results have complete fields, zero traps, matching result/runtime hashes, and **20 globally unique response IDs** with recorded gateway status `REFRESH`. Review found a generic “Quote for…” parsing omission; after repair, all ten documents were genuinely rerun. e08 now returns `CC-PG-004`/`recommend`, without manual answer edits. Covered locally. |
 | **9 — Report** | The standalone HTML contains embedded styles, charts, and data. The exact saved content passed offline desktop/mobile and keyboard QA with zero network requests or page overflow; evidence is in `report_visual_review.md`. A literal Finder double-click is not claimed. Covered locally. |
-| **10 — Publication** | The required local package, course data, attacks, README, placeholder environment file, and secret exclusions are present. **Public GitHub publication and Canvas submission remain pending.** Proposed destination: `wendellli99/mgt409-hw6-vendor-desk`; this name is not proof of publication. |
+| **10 — Publication** | Published at [wendellli99/mgt409-hw6-vendor-desk](https://github.com/wendellli99/mgt409-hw6-vendor-desk). An anonymous public clone matched the verified local file tree, including required course data, attacks, README and placeholder environment file. Credentials and local review caches are excluded. **Canvas submission remains pending.** |
 
 ## Interpretation limits
 
@@ -26,4 +26,4 @@ Reviewed all ten assignment pages, both panels on Problems 1–9, the scenario, 
 
 ## Final integrity result
 
-After final report QA, the offline validator passed **2,103 of 2,103 checks**, with zero failures; `validation.json` contains the full result. Local P2–P9 deliverables are ready. P1's authentic student-history review and P10's public publication/Canvas submission remain explicit outstanding items. No numerical experiment evidence or individual answer was edited by this review.
+After final report QA, the offline validator passed **2,103 of 2,103 checks**, with zero failures; `validation.json` contains the full result. Local P2–P9 deliverables and public GitHub publication are ready. P1's authentic student-history review and Canvas submission remain explicit outstanding items. No numerical experiment evidence or individual answer was edited by this review. The publication status was updated after verifying the public repository and clone.
