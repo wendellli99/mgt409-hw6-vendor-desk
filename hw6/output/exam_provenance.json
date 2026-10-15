@@ -1,0 +1,11 @@
+{
+  "method": "Unedited run_document outputs; no answer key used.",
+  "sha256": "af27c3bfd9f7adc9cbc68ae0c2390d9123760d6380c30630c601da391c0b0d27",
+  "source_hashes": {
+    "agent.py": "147bf8ccb736f8e4644a9f51d2f7b1eb3becd6175c05662b60483ea2bf87fcdf",
+    "tools.py": "a4c1a67d5fd59d71e342c7a80576c8f07d74a32408fd4a13a0142a99e3c72123",
+    "models.py": "9b8d8bfd10fae14c36b0a06be165361f219cff989756cb2a40c2b92025ff70d6",
+    "policy.py": "09ab51eee1f7f2ccb345ea95b4858e41578095265e9fc263d5db86b18d7095f8",
+    "prompts/prompt.md": "7ba53c6fd7781b2e5c0e05e05acd664a9cc56da5b8c664956d3cb2e3aaaf7cf7"
+  }
+}

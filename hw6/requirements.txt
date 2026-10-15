@@ -1,0 +1,11 @@
+pydantic-ai-slim[openai]==1.107.7
+openai==3.31.0
+pydantic==2.14.1
+python-dotenv==1.2.4
+httpx==0.28.1
+pymupdf==1.28.2
+beautifulsoup4==4.15.0
+tinycss2==1.5.1
+cssselect2==0.10.1
+tiktoken==0.14.0
+pytest==8.4.2

@@ -1,0 +1,361 @@
+{
+  "observed_at": "2026-10-15T01:31:37.371880+00:00",
+  "source": "output/usage_log.json",
+  "source_rows_at_review": 161,
+  "source_snapshot_sha256": "be418be3471d2c797c4d3c0782df0df3e6c63edbc3f4235c4e7e8ea375bb1d4a",
+  "explanation": "Historical repeated requests for the same document returned identical provider response IDs, model identifiers, and raw usage under different local run IDs. This is consistent with gateway whole-response reuse. Cache-status headers were not captured for these historical responses, so the exact serving mechanism is not independently confirmed. Original records are retained unchanged.",
+  "billing_limitation": "These historical rerun rows contain the usage returned by the gateway; adding them does not establish unique upstream inference or unique provider billing. No zero-cost discount or deduction is invented. The original cache experiment and final refreshed exam must have unreused response IDs.",
+  "duplicate_response_count": 7,
+  "groups": [
+    {
+      "response_id": "resp_0a45e055c227e53e016ad02b159d1c8195a092b39bd1196fb7",
+      "identical_returned_usage_and_model": true,
+      "occurrences": [
+        {
+          "run_id": "226a16c3b2d34baf90cb764bdcab6bc7",
+          "call_index": 1,
+          "experiment": "exam_final",
+          "document": "e01_quote.html",
+          "time": "2026-10-15T01:23:38.817507+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10578,
+            "input_tokens_details": {
+              "cache_write_tokens": 10452,
+              "cached_tokens": 0
+            },
+            "output_tokens": 25,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10603
+          },
+          "cost_usd": 0.0013316
+        },
+        {
+          "run_id": "1567545ac9b74dce99d362d5b383c7fe",
+          "call_index": 1,
+          "experiment": "exam_final",
+          "document": "e01_quote.html",
+          "time": "2026-10-15T01:25:52.061165+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10578,
+            "input_tokens_details": {
+              "cache_write_tokens": 10452,
+              "cached_tokens": 0
+            },
+            "output_tokens": 25,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10603
+          },
+          "cost_usd": 0.0013316
+        }
+      ]
+    },
+    {
+      "response_id": "resp_0563d14b204a6673016ad02b1b24ac819689d1f2184963e96c",
+      "identical_returned_usage_and_model": true,
+      "occurrences": [
+        {
+          "run_id": "226a16c3b2d34baf90cb764bdcab6bc7",
+          "call_index": 2,
+          "experiment": "exam_final",
+          "document": "e01_quote.html",
+          "time": "2026-10-15T01:23:40.909526+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10690,
+            "input_tokens_details": {
+              "cache_write_tokens": 112,
+              "cached_tokens": 10452
+            },
+            "output_tokens": 151,
+            "output_tokens_details": {
+              "reasoning_tokens": 54
+            },
+            "total_tokens": 10841
+          },
+          "cost_usd": 0.00020662
+        },
+        {
+          "run_id": "1567545ac9b74dce99d362d5b383c7fe",
+          "call_index": 2,
+          "experiment": "exam_final",
+          "document": "e01_quote.html",
+          "time": "2026-10-15T01:25:52.371955+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10690,
+            "input_tokens_details": {
+              "cache_write_tokens": 112,
+              "cached_tokens": 10452
+            },
+            "output_tokens": 151,
+            "output_tokens_details": {
+              "reasoning_tokens": 54
+            },
+            "total_tokens": 10841
+          },
+          "cost_usd": 0.00020662
+        }
+      ]
+    },
+    {
+      "response_id": "resp_0289fa88fdde7537016ad02b1d586c819782fb314db33ade57",
+      "identical_returned_usage_and_model": true,
+      "occurrences": [
+        {
+          "run_id": "7824225589ea4e98881964531915c769",
+          "call_index": 1,
+          "experiment": "exam_final",
+          "document": "e02_quote.html",
+          "time": "2026-10-15T01:23:42.440368+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10578,
+            "input_tokens_details": {
+              "cache_write_tokens": 27,
+              "cached_tokens": 10425
+            },
+            "output_tokens": 25,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10603
+          },
+          "cost_usd": 0.000132725
+        },
+        {
+          "run_id": "8ef60680dbb24d13ba64dbc1fe1f10e2",
+          "call_index": 1,
+          "experiment": "exam_final",
+          "document": "e02_quote.html",
+          "time": "2026-10-15T01:25:52.683137+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10578,
+            "input_tokens_details": {
+              "cache_write_tokens": 27,
+              "cached_tokens": 10425
+            },
+            "output_tokens": 25,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10603
+          },
+          "cost_usd": 0.000132725
+        }
+      ]
+    },
+    {
+      "response_id": "resp_0ba2ed93ed895be1016ad02b1fdc608190bc074c855c6f19b2",
+      "identical_returned_usage_and_model": true,
+      "occurrences": [
+        {
+          "run_id": "7824225589ea4e98881964531915c769",
+          "call_index": 2,
+          "experiment": "exam_final",
+          "document": "e02_quote.html",
+          "time": "2026-10-15T01:23:47.549513+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10685,
+            "input_tokens_details": {
+              "cache_write_tokens": 107,
+              "cached_tokens": 10452
+            },
+            "output_tokens": 232,
+            "output_tokens_details": {
+              "reasoning_tokens": 127
+            },
+            "total_tokens": 10917
+          },
+          "cost_usd": 0.000246495
+        },
+        {
+          "run_id": "8ef60680dbb24d13ba64dbc1fe1f10e2",
+          "call_index": 2,
+          "experiment": "exam_final",
+          "document": "e02_quote.html",
+          "time": "2026-10-15T01:25:52.986405+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10685,
+            "input_tokens_details": {
+              "cache_write_tokens": 107,
+              "cached_tokens": 10452
+            },
+            "output_tokens": 232,
+            "output_tokens_details": {
+              "reasoning_tokens": 127
+            },
+            "total_tokens": 10917
+          },
+          "cost_usd": 0.000246495
+        }
+      ]
+    },
+    {
+      "response_id": "resp_0323db2cbc4b796c016ad02b23fc088193ad3682934bfe6e32",
+      "identical_returned_usage_and_model": true,
+      "occurrences": [
+        {
+          "run_id": "aef5bf0b66fe4e4b9521ef9cd67b16ae",
+          "call_index": 1,
+          "experiment": "exam_final",
+          "document": "e03_quote.html",
+          "time": "2026-10-15T01:23:50.762567+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10578,
+            "input_tokens_details": {
+              "cache_write_tokens": 27,
+              "cached_tokens": 10425
+            },
+            "output_tokens": 25,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10603
+          },
+          "cost_usd": 0.000132725
+        },
+        {
+          "run_id": "47a8cbb0b9294a7a9d37022b95b61459",
+          "call_index": 1,
+          "experiment": "exam_final",
+          "document": "e03_quote.html",
+          "time": "2026-10-15T01:25:53.381217+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10578,
+            "input_tokens_details": {
+              "cache_write_tokens": 27,
+              "cached_tokens": 10425
+            },
+            "output_tokens": 25,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10603
+          },
+          "cost_usd": 0.000132725
+        }
+      ]
+    },
+    {
+      "response_id": "resp_08fb0a8eb4bb8d25016ad02b2724c48194995453aa95940f05",
+      "identical_returned_usage_and_model": true,
+      "occurrences": [
+        {
+          "run_id": "aef5bf0b66fe4e4b9521ef9cd67b16ae",
+          "call_index": 2,
+          "experiment": "exam_final",
+          "document": "e03_quote.html",
+          "time": "2026-10-15T01:23:54.827184+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10691,
+            "input_tokens_details": {
+              "cache_write_tokens": 113,
+              "cached_tokens": 10452
+            },
+            "output_tokens": 165,
+            "output_tokens_details": {
+              "reasoning_tokens": 65
+            },
+            "total_tokens": 10856
+          },
+          "cost_usd": 0.000213745
+        },
+        {
+          "run_id": "47a8cbb0b9294a7a9d37022b95b61459",
+          "call_index": 2,
+          "experiment": "exam_final",
+          "document": "e03_quote.html",
+          "time": "2026-10-15T01:25:53.661266+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10691,
+            "input_tokens_details": {
+              "cache_write_tokens": 113,
+              "cached_tokens": 10452
+            },
+            "output_tokens": 165,
+            "output_tokens_details": {
+              "reasoning_tokens": 65
+            },
+            "total_tokens": 10856
+          },
+          "cost_usd": 0.000213745
+        }
+      ]
+    },
+    {
+      "response_id": "resp_0199bb59a72a5fc7016ad02b22ee58819783056157e2e43e91",
+      "identical_returned_usage_and_model": true,
+      "occurrences": [
+        {
+          "run_id": "637940d37aa54718a84ecac6d777c681",
+          "call_index": 1,
+          "experiment": "red_team_undefended",
+          "document": "a02_email_header_payment.eml",
+          "time": "2026-10-15T01:24:00.418521+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10443,
+            "input_tokens_details": {
+              "cache_write_tokens": 30,
+              "cached_tokens": 10287
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10471
+          },
+          "cost_usd": 0.00013322
+        },
+        {
+          "run_id": "dd583a6b2d6e456d8404c279575d7f72",
+          "call_index": 1,
+          "experiment": "red_team_undefended",
+          "document": "a02_email_header_payment.eml",
+          "time": "2026-10-15T01:25:10.506721+00:00",
+          "requested_model": "gpt-6-luna",
+          "model": "gpt-6-luna-global",
+          "raw_usage": {
+            "input_tokens": 10443,
+            "input_tokens_details": {
+              "cache_write_tokens": 30,
+              "cached_tokens": 10287
+            },
+            "output_tokens": 28,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 10471
+          },
+          "cost_usd": 0.00013322
+        }
+      ]
+    }
+  ]
+}

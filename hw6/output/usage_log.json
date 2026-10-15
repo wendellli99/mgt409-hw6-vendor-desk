@@ -1,0 +1,5828 @@
+[
+  {
+    "run_id": "9c21652d72074ccdb5a574adf759cd1c",
+    "time": "2026-10-15T01:13:39.525425+00:00",
+    "experiment": "smoke",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0da648581cfbc2f4016ad028c148d08190af1223ce0b07a2c5",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10442,
+      "input_tokens_details": {
+        "cache_write_tokens": 10316,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10469
+    },
+    "input_tokens": 10442,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10316,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.0013156
+  },
+  {
+    "run_id": "9c21652d72074ccdb5a574adf759cd1c",
+    "time": "2026-10-15T01:13:46.355373+00:00",
+    "experiment": "smoke",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b23666c2c77b202016ad028c4da3481978fdae5632884f64d",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10895,
+      "input_tokens_details": {
+        "cache_write_tokens": 453,
+        "cached_tokens": 10316
+      },
+      "output_tokens": 162,
+      "output_tokens_details": {
+        "reasoning_tokens": 56
+      },
+      "total_tokens": 11057
+    },
+    "input_tokens": 10895,
+    "cached_tokens": 10316,
+    "cache_write_tokens": 453,
+    "uncached_input_tokens": 126,
+    "output_tokens": 162,
+    "cost_usd": 0.000253385
+  },
+  {
+    "run_id": "1e3b63ba6f1b44c0ac0d676af6654b9e",
+    "time": "2026-10-15T01:13:47.862838+00:00",
+    "experiment": "smoke",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a4dd93e7de1034b016ad028cac8f081968cf49b57d4363dbb",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10444,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10473
+    },
+    "input_tokens": 10444,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133845
+  },
+  {
+    "run_id": "1e3b63ba6f1b44c0ac0d676af6654b9e",
+    "time": "2026-10-15T01:13:51.903750+00:00",
+    "experiment": "smoke",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_004744d9d120a2cf016ad028cc2b2c8195a72c18f8ab9a6573",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10626,
+      "input_tokens_details": {
+        "cache_write_tokens": 182,
+        "cached_tokens": 10318
+      },
+      "output_tokens": 183,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 10809
+    },
+    "input_tokens": 10626,
+    "cached_tokens": 10318,
+    "cache_write_tokens": 182,
+    "uncached_input_tokens": 126,
+    "output_tokens": 183,
+    "cost_usd": 0.00023003
+  },
+  {
+    "run_id": "bd270bcb1a9843d9a0720e4308d6a113",
+    "time": "2026-10-15T01:14:08.380829+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_04a8d8f8ae123e13016ad028decc7081979d34452e439d572b",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10442,
+      "input_tokens_details": {
+        "cache_write_tokens": 10316,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10469
+    },
+    "input_tokens": 10442,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10316,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.0013156
+  },
+  {
+    "run_id": "bd270bcb1a9843d9a0720e4308d6a113",
+    "time": "2026-10-15T01:14:10.642963+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0f85452ded59c9b1016ad028e0c72081949c1f47d202f1e4d3",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10895,
+      "input_tokens_details": {
+        "cache_write_tokens": 453,
+        "cached_tokens": 10316
+      },
+      "output_tokens": 203,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 11098
+    },
+    "input_tokens": 10895,
+    "cached_tokens": 10316,
+    "cache_write_tokens": 453,
+    "uncached_input_tokens": 126,
+    "output_tokens": 203,
+    "cost_usd": 0.000273885
+  },
+  {
+    "run_id": "78d288e7ccb34c90aab3d6234f28a7b6",
+    "time": "2026-10-15T01:14:13.107706+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e421cff1b35f6dd016ad028e3214881958bacbcc6fb122b64",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "78d288e7ccb34c90aab3d6234f28a7b6",
+    "time": "2026-10-15T01:14:16.891901+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00da18ba9a536d69016ad028e564848190aa906efb954f2a08",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10908,
+      "input_tokens_details": {
+        "cache_write_tokens": 465,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 463,
+      "output_tokens_details": {
+        "reasoning_tokens": 350
+      },
+      "total_tokens": 11371
+    },
+    "input_tokens": 10908,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 465,
+    "uncached_input_tokens": 126,
+    "output_tokens": 463,
+    "cost_usd": 0.000405395
+  },
+  {
+    "run_id": "5f5c012ff0c74469aabd46eea2452415",
+    "time": "2026-10-15T01:14:18.692814+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_04e316b1e62f4668016ad028e955808194af11e48c8e990bc0",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "5f5c012ff0c74469aabd46eea2452415",
+    "time": "2026-10-15T01:14:23.363680+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0496112edeaa46be016ad028eb068c8197a79b0f6d97450f5b",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10901,
+      "input_tokens_details": {
+        "cache_write_tokens": 458,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 445,
+      "output_tokens_details": {
+        "reasoning_tokens": 335
+      },
+      "total_tokens": 11346
+    },
+    "input_tokens": 10901,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 458,
+    "uncached_input_tokens": 126,
+    "output_tokens": 445,
+    "cost_usd": 0.00039552
+  },
+  {
+    "run_id": "8187cb7a82ad48beae723393d40e060a",
+    "time": "2026-10-15T01:14:25.463675+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_03d19e3784578471016ad028efb8f881948b360671e988faba",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10445,
+      "input_tokens_details": {
+        "cache_write_tokens": 32,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10475
+    },
+    "input_tokens": 10445,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 32,
+    "uncached_input_tokens": 126,
+    "output_tokens": 30,
+    "cost_usd": 0.00013447
+  },
+  {
+    "run_id": "8187cb7a82ad48beae723393d40e060a",
+    "time": "2026-10-15T01:14:28.329805+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_06381a9efdff61fd016ad028f1bf608195a3e10218e04c9ac5",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10927,
+      "input_tokens_details": {
+        "cache_write_tokens": 482,
+        "cached_tokens": 10319
+      },
+      "output_tokens": 229,
+      "output_tokens_details": {
+        "reasoning_tokens": 116
+      },
+      "total_tokens": 11156
+    },
+    "input_tokens": 10927,
+    "cached_tokens": 10319,
+    "cache_write_tokens": 482,
+    "uncached_input_tokens": 126,
+    "output_tokens": 229,
+    "cost_usd": 0.00029054
+  },
+  {
+    "run_id": "a744872671a940cab426429f9700f633",
+    "time": "2026-10-15T01:14:31.448702+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0f3bf6130914ea8e016ad028f504dc8193ba3ca9a7619d6f45",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "a744872671a940cab426429f9700f633",
+    "time": "2026-10-15T01:14:34.992258+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b8f12b633fd5730016ad028f7dd908197ba466ba44384c2be",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10571,
+      "input_tokens_details": {
+        "cache_write_tokens": 128,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 188,
+      "output_tokens_details": {
+        "reasoning_tokens": 78
+      },
+      "total_tokens": 10759
+    },
+    "input_tokens": 10571,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 128,
+    "uncached_input_tokens": 126,
+    "output_tokens": 188,
+    "cost_usd": 0.00022577
+  },
+  {
+    "run_id": "f0a84d868b8d48fa9b19f37c78e107f6",
+    "time": "2026-10-15T01:14:37.807899+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a3f6d3d2b9616f5016ad028fb78f48197a49d8a969539810a",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "f0a84d868b8d48fa9b19f37c78e107f6",
+    "time": "2026-10-15T01:14:40.461934+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0988a99cae09f537016ad028fe53c88190b1bd48076c7a4f28",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10615,
+      "input_tokens_details": {
+        "cache_write_tokens": 172,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 155,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 10770
+    },
+    "input_tokens": 10615,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 172,
+    "uncached_input_tokens": 126,
+    "output_tokens": 155,
+    "cost_usd": 0.00021477
+  },
+  {
+    "run_id": "dd8ebbcc726c47e38f3af5eb158f7e3a",
+    "time": "2026-10-15T01:14:42.054955+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_03557442642ed6aa016ad02900fb648195ab270083125431b6",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "dd8ebbcc726c47e38f3af5eb158f7e3a",
+    "time": "2026-10-15T01:14:44.608076+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0f21718ca63e6391016ad0290256008195b34f0383c40202ce",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10590,
+      "input_tokens_details": {
+        "cache_write_tokens": 147,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 233,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 10823
+    },
+    "input_tokens": 10590,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 147,
+    "uncached_input_tokens": 126,
+    "output_tokens": 233,
+    "cost_usd": 0.000250645
+  },
+  {
+    "run_id": "7c6f0d30cc314ac08f0000f10855056b",
+    "time": "2026-10-15T01:14:47.523745+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ba39cdef9d39c2e016ad0290521708197b8b5054179336f2d",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10444,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10473
+    },
+    "input_tokens": 10444,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133845
+  },
+  {
+    "run_id": "7c6f0d30cc314ac08f0000f10855056b",
+    "time": "2026-10-15T01:14:53.601924+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_05b07eeadb38beda016ad0290927f88193aadffc1d9b481220",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10626,
+      "input_tokens_details": {
+        "cache_write_tokens": 182,
+        "cached_tokens": 10318
+      },
+      "output_tokens": 179,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 10805
+    },
+    "input_tokens": 10626,
+    "cached_tokens": 10318,
+    "cache_write_tokens": 182,
+    "uncached_input_tokens": 126,
+    "output_tokens": 179,
+    "cost_usd": 0.00022803
+  },
+  {
+    "run_id": "788312ceef8940418dea285a032cdefb",
+    "time": "2026-10-15T01:14:55.528020+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0045ee92245e9d54016ad0290e22fc8196976c58f1eca1fc8e",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10444,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10473
+    },
+    "input_tokens": 10444,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133845
+  },
+  {
+    "run_id": "788312ceef8940418dea285a032cdefb",
+    "time": "2026-10-15T01:15:02.224250+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_07a19f053785e542016ad0290fd82081979ebb15d8e1a2cb63",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10796,
+      "input_tokens_details": {
+        "cache_write_tokens": 352,
+        "cached_tokens": 10318
+      },
+      "output_tokens": 236,
+      "output_tokens_details": {
+        "reasoning_tokens": 154
+      },
+      "total_tokens": 11032
+    },
+    "input_tokens": 10796,
+    "cached_tokens": 10318,
+    "cache_write_tokens": 352,
+    "uncached_input_tokens": 126,
+    "output_tokens": 236,
+    "cost_usd": 0.00027778
+  },
+  {
+    "run_id": "7d9fa0480c54403ea341b1abc1e38b24",
+    "time": "2026-10-15T01:15:04.842786+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00dcfd8e9f3c436c016ad02916e3a0819699732c1a42a814ac",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10444,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10473
+    },
+    "input_tokens": 10444,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133845
+  },
+  {
+    "run_id": "7d9fa0480c54403ea341b1abc1e38b24",
+    "time": "2026-10-15T01:15:09.849733+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_06229cbc7701b57d016ad029195da08195b0c4cac7fda236c3",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10645,
+      "input_tokens_details": {
+        "cache_write_tokens": 201,
+        "cached_tokens": 10318
+      },
+      "output_tokens": 167,
+      "output_tokens_details": {
+        "reasoning_tokens": 55
+      },
+      "total_tokens": 10812
+    },
+    "input_tokens": 10645,
+    "cached_tokens": 10318,
+    "cache_write_tokens": 201,
+    "uncached_input_tokens": 126,
+    "output_tokens": 167,
+    "cost_usd": 0.000224405
+  },
+  {
+    "run_id": "0ecb727202fa451db898a25e298a4f5f",
+    "time": "2026-10-15T01:15:12.239290+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_07b7f84ffc39fe84016ad0291e67388197a2d27b645218ac3c",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "0ecb727202fa451db898a25e298a4f5f",
+    "time": "2026-10-15T01:15:15.074361+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0add5b8e6863bef8016ad029208ee08197b45e4a2c167c628c",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10878,
+      "input_tokens_details": {
+        "cache_write_tokens": 435,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 200,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 11078
+    },
+    "input_tokens": 10878,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 435,
+    "uncached_input_tokens": 126,
+    "output_tokens": 200,
+    "cost_usd": 0.000270145
+  },
+  {
+    "run_id": "7034db679a794897aa82a95d51e0b310",
+    "time": "2026-10-15T01:15:16.606126+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_02bd650397a7c45c016ad0292395e88196993f612d20f3d030",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10442,
+      "input_tokens_details": {
+        "cache_write_tokens": 29,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10469
+    },
+    "input_tokens": 10442,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 29,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.000132595
+  },
+  {
+    "run_id": "7034db679a794897aa82a95d51e0b310",
+    "time": "2026-10-15T01:15:19.822989+00:00",
+    "experiment": "cache",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0f4960ecaedaa365016ad02924f93c81939ab296bd9541457a",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10589,
+      "input_tokens_details": {
+        "cache_write_tokens": 147,
+        "cached_tokens": 10316
+      },
+      "output_tokens": 189,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 10778
+    },
+    "input_tokens": 10589,
+    "cached_tokens": 10316,
+    "cache_write_tokens": 147,
+    "uncached_input_tokens": 126,
+    "output_tokens": 189,
+    "cost_usd": 0.000228635
+  },
+  {
+    "run_id": "a861d6e51f674f838b9c4700c945c897",
+    "time": "2026-10-15T01:15:21.351252+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_069088e6190f7b80016ad029284ae08190840a7f330d230240",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10467,
+      "input_tokens_details": {
+        "cache_write_tokens": 10341,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10494
+    },
+    "input_tokens": 10467,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10341,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.001318725
+  },
+  {
+    "run_id": "a861d6e51f674f838b9c4700c945c897",
+    "time": "2026-10-15T01:15:24.177280+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0cacc30daccd8d8d016ad02929bf7c81948a95cf7d095370b6",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10922,
+      "input_tokens_details": {
+        "cache_write_tokens": 10796,
+        "cached_tokens": 0
+      },
+      "output_tokens": 205,
+      "output_tokens_details": {
+        "reasoning_tokens": 95
+      },
+      "total_tokens": 11127
+    },
+    "input_tokens": 10922,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10796,
+    "uncached_input_tokens": 126,
+    "output_tokens": 205,
+    "cost_usd": 0.0014646
+  },
+  {
+    "run_id": "a6cb6d3e062144d581a005282329cdea",
+    "time": "2026-10-15T01:15:25.900253+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ac17299e21dd8cb016ad0292ca8548195ac568a3e5f7e2951",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10467,
+      "input_tokens_details": {
+        "cache_write_tokens": 10341,
+        "cached_tokens": 0
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10495
+    },
+    "input_tokens": 10467,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10341,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.001319225
+  },
+  {
+    "run_id": "a6cb6d3e062144d581a005282329cdea",
+    "time": "2026-10-15T01:15:34.753776+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0338c17872dfcfb9016ad0292e3dec8194acae4a9bc1746cbd",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10930,
+      "input_tokens_details": {
+        "cache_write_tokens": 10804,
+        "cached_tokens": 0
+      },
+      "output_tokens": 210,
+      "output_tokens_details": {
+        "reasoning_tokens": 106
+      },
+      "total_tokens": 11140
+    },
+    "input_tokens": 10930,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10804,
+    "uncached_input_tokens": 126,
+    "output_tokens": 210,
+    "cost_usd": 0.0014681
+  },
+  {
+    "run_id": "5f32f8c86c334a2aaa62dc9c1195e673",
+    "time": "2026-10-15T01:15:39.191925+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0df4cef98fbb9039016ad029372c8c8195a850ed00e5ed6d58",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10464,
+      "input_tokens_details": {
+        "cache_write_tokens": 10338,
+        "cached_tokens": 0
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10492
+    },
+    "input_tokens": 10464,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10338,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00131885
+  },
+  {
+    "run_id": "5f32f8c86c334a2aaa62dc9c1195e673",
+    "time": "2026-10-15T01:15:54.829417+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_042c9f0d0bdbe656016ad0293c26808196ae0f9fd55488f9e6",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10921,
+      "input_tokens_details": {
+        "cache_write_tokens": 10795,
+        "cached_tokens": 0
+      },
+      "output_tokens": 237,
+      "output_tokens_details": {
+        "reasoning_tokens": 135
+      },
+      "total_tokens": 11158
+    },
+    "input_tokens": 10921,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10795,
+    "uncached_input_tokens": 126,
+    "output_tokens": 237,
+    "cost_usd": 0.001480475
+  },
+  {
+    "run_id": "6cf13ff5fd924ec8b1e9d5053c6d8749",
+    "time": "2026-10-15T01:15:57.561716+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b5802b96d554d07016ad0294b67148195889691abe963afa7",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10469,
+      "input_tokens_details": {
+        "cache_write_tokens": 10343,
+        "cached_tokens": 0
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10499
+    },
+    "input_tokens": 10469,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10343,
+    "uncached_input_tokens": 126,
+    "output_tokens": 30,
+    "cost_usd": 0.001320475
+  },
+  {
+    "run_id": "6cf13ff5fd924ec8b1e9d5053c6d8749",
+    "time": "2026-10-15T01:16:00.609778+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ba200797ae90530016ad0294dedac819596abc3975faa5b16",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10952,
+      "input_tokens_details": {
+        "cache_write_tokens": 10826,
+        "cached_tokens": 0
+      },
+      "output_tokens": 234,
+      "output_tokens_details": {
+        "reasoning_tokens": 126
+      },
+      "total_tokens": 11186
+    },
+    "input_tokens": 10952,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10826,
+    "uncached_input_tokens": 126,
+    "output_tokens": 234,
+    "cost_usd": 0.00148285
+  },
+  {
+    "run_id": "41492290890548dd834528725a7df095",
+    "time": "2026-10-15T01:16:16.619058+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b9919cd34b88817016ad02956a7188195ae5182343a5b43fc",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10468,
+      "input_tokens_details": {
+        "cache_write_tokens": 10342,
+        "cached_tokens": 0
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10496
+    },
+    "input_tokens": 10468,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10342,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00131935
+  },
+  {
+    "run_id": "41492290890548dd834528725a7df095",
+    "time": "2026-10-15T01:16:23.943453+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_09b70b8e6820de60016ad0296179ac81978d5ffaeb3a175e1a",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10596,
+      "input_tokens_details": {
+        "cache_write_tokens": 10470,
+        "cached_tokens": 0
+      },
+      "output_tokens": 172,
+      "output_tokens_details": {
+        "reasoning_tokens": 71
+      },
+      "total_tokens": 10768
+    },
+    "input_tokens": 10596,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10470,
+    "uncached_input_tokens": 126,
+    "output_tokens": 172,
+    "cost_usd": 0.00140735
+  },
+  {
+    "run_id": "5f9679635cef402eaa3c46f779100d0b",
+    "time": "2026-10-15T01:16:28.889244+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_02ff4bfd46c9d05d016ad02969ce2881968b41867f33714799",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10465,
+      "input_tokens_details": {
+        "cache_write_tokens": 10339,
+        "cached_tokens": 0
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10493
+    },
+    "input_tokens": 10465,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10339,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.001318975
+  },
+  {
+    "run_id": "5f9679635cef402eaa3c46f779100d0b",
+    "time": "2026-10-15T01:16:32.452154+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0d92ae7e245a087a016ad0296d49948195ae6b6909a46f58a9",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10641,
+      "input_tokens_details": {
+        "cache_write_tokens": 10515,
+        "cached_tokens": 0
+      },
+      "output_tokens": 142,
+      "output_tokens_details": {
+        "reasoning_tokens": 44
+      },
+      "total_tokens": 10783
+    },
+    "input_tokens": 10641,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10515,
+    "uncached_input_tokens": 126,
+    "output_tokens": 142,
+    "cost_usd": 0.001397975
+  },
+  {
+    "run_id": "fefa67ecf06344fd9c0e90caa281b652",
+    "time": "2026-10-15T01:16:34.218081+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b3d5213ab21d38e016ad02970f1b081969f88ec777c033c90",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10467,
+      "input_tokens_details": {
+        "cache_write_tokens": 10341,
+        "cached_tokens": 0
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10495
+    },
+    "input_tokens": 10467,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10341,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.001319225
+  },
+  {
+    "run_id": "fefa67ecf06344fd9c0e90caa281b652",
+    "time": "2026-10-15T01:16:39.029007+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ecc95781d402d3b016ad02972bd288194838928ed6ab7dbd0",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10614,
+      "input_tokens_details": {
+        "cache_write_tokens": 10488,
+        "cached_tokens": 0
+      },
+      "output_tokens": 361,
+      "output_tokens_details": {
+        "reasoning_tokens": 249
+      },
+      "total_tokens": 10975
+    },
+    "input_tokens": 10614,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10488,
+    "uncached_input_tokens": 126,
+    "output_tokens": 361,
+    "cost_usd": 0.0015041
+  },
+  {
+    "run_id": "08afde82747d496bb5a48001fc7b79a2",
+    "time": "2026-10-15T01:16:40.629778+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_04e1a523311d3f72016ad0297785ec81958beca4e76112f61a",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10472,
+      "input_tokens_details": {
+        "cache_write_tokens": 10346,
+        "cached_tokens": 0
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10501
+    },
+    "input_tokens": 10472,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10346,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.00132035
+  },
+  {
+    "run_id": "08afde82747d496bb5a48001fc7b79a2",
+    "time": "2026-10-15T01:17:33.223144+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0f917c95b812ac36016ad0297b66bc81959f0c6b4e830ecdc2",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10648,
+      "input_tokens_details": {
+        "cache_write_tokens": 10522,
+        "cached_tokens": 0
+      },
+      "output_tokens": 186,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 10834
+    },
+    "input_tokens": 10648,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10522,
+    "uncached_input_tokens": 126,
+    "output_tokens": 186,
+    "cost_usd": 0.00142085
+  },
+  {
+    "run_id": "1904fef9ecc941a1926b2de2ef56ee91",
+    "time": "2026-10-15T01:17:35.266274+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0c9ab591859830a0016ad029adcdd881968ebc5c3bb69bdaa5",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10466,
+      "input_tokens_details": {
+        "cache_write_tokens": 10340,
+        "cached_tokens": 0
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10495
+    },
+    "input_tokens": 10466,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10340,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.0013196
+  },
+  {
+    "run_id": "1904fef9ecc941a1926b2de2ef56ee91",
+    "time": "2026-10-15T01:17:39.657960+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_099c4f5805890928016ad029b00a848194a81b909d4a36d705",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10821,
+      "input_tokens_details": {
+        "cache_write_tokens": 10695,
+        "cached_tokens": 0
+      },
+      "output_tokens": 199,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 11020
+    },
+    "input_tokens": 10821,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10695,
+    "uncached_input_tokens": 126,
+    "output_tokens": 199,
+    "cost_usd": 0.001448975
+  },
+  {
+    "run_id": "2a013380762a46d7ba39509d743dcdc6",
+    "time": "2026-10-15T01:17:43.776016+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0c91f964939e5117016ad029b418d881908b0182c6f0fa7c26",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10464,
+      "input_tokens_details": {
+        "cache_write_tokens": 10338,
+        "cached_tokens": 0
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10493
+    },
+    "input_tokens": 10464,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10338,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.00131935
+  },
+  {
+    "run_id": "2a013380762a46d7ba39509d743dcdc6",
+    "time": "2026-10-15T01:17:46.782947+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_09c2f50dd9ce7762016ad029b813f08196a6e426a057952daf",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10671,
+      "input_tokens_details": {
+        "cache_write_tokens": 10545,
+        "cached_tokens": 0
+      },
+      "output_tokens": 186,
+      "output_tokens_details": {
+        "reasoning_tokens": 77
+      },
+      "total_tokens": 10857
+    },
+    "input_tokens": 10671,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10545,
+    "uncached_input_tokens": 126,
+    "output_tokens": 186,
+    "cost_usd": 0.001423725
+  },
+  {
+    "run_id": "af96494e35864e84ac7c0838992aeb2b",
+    "time": "2026-10-15T01:17:49.606835+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_09b1006c4cc50552016ad029bb28d88195b14ec9fbb10f54e6",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10467,
+      "input_tokens_details": {
+        "cache_write_tokens": 10341,
+        "cached_tokens": 0
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10495
+    },
+    "input_tokens": 10467,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10341,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.001319225
+  },
+  {
+    "run_id": "af96494e35864e84ac7c0838992aeb2b",
+    "time": "2026-10-15T01:17:53.076282+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00f196c7a9522478016ad029bdf99881939a4c2dd60c2c953e",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10899,
+      "input_tokens_details": {
+        "cache_write_tokens": 10773,
+        "cached_tokens": 0
+      },
+      "output_tokens": 171,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 11070
+    },
+    "input_tokens": 10899,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10773,
+    "uncached_input_tokens": 126,
+    "output_tokens": 171,
+    "cost_usd": 0.001444725
+  },
+  {
+    "run_id": "73d03d0267fe4f8b8689098409786857",
+    "time": "2026-10-15T01:17:54.884215+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a8b8ce521eb1949016ad029c182208195a859c2f70a71cbb7",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10467,
+      "input_tokens_details": {
+        "cache_write_tokens": 10341,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10494
+    },
+    "input_tokens": 10467,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10341,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.001318725
+  },
+  {
+    "run_id": "73d03d0267fe4f8b8689098409786857",
+    "time": "2026-10-15T01:18:06.440203+00:00",
+    "experiment": "cache",
+    "setup": "without_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b8d9f25b6ea713e016ad029cafbfc81969db97c3bb560339e",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10611,
+      "input_tokens_details": {
+        "cache_write_tokens": 10485,
+        "cached_tokens": 0
+      },
+      "output_tokens": 206,
+      "output_tokens_details": {
+        "reasoning_tokens": 100
+      },
+      "total_tokens": 10817
+    },
+    "input_tokens": 10611,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10485,
+    "uncached_input_tokens": 126,
+    "output_tokens": 206,
+    "cost_usd": 0.001426225
+  },
+  {
+    "run_id": "0b1d086c81fc45fb90827fc9df033355",
+    "time": "2026-10-15T01:18:08.824641+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0cf8397ca708ba88016ad029cfa790819584eb11c93dadcede",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10442,
+      "input_tokens_details": {
+        "cache_write_tokens": 10316,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10469
+    },
+    "input_tokens": 10442,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10316,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.0013156
+  },
+  {
+    "run_id": "0b1d086c81fc45fb90827fc9df033355",
+    "time": "2026-10-15T01:18:11.716942+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_03799436aa519c48016ad029d1365881939fba02396649ef60",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10593,
+      "input_tokens_details": {
+        "cache_write_tokens": 151,
+        "cached_tokens": 10316
+      },
+      "output_tokens": 216,
+      "output_tokens_details": {
+        "reasoning_tokens": 107
+      },
+      "total_tokens": 10809
+    },
+    "input_tokens": 10593,
+    "cached_tokens": 10316,
+    "cache_write_tokens": 151,
+    "uncached_input_tokens": 126,
+    "output_tokens": 216,
+    "cost_usd": 0.000242635
+  },
+  {
+    "run_id": "ce17cf258c494f04a56ef4244927db21",
+    "time": "2026-10-15T01:18:13.924944+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00fc4e88a7f2cf92016ad029d449ec8195846502dae136d4b2",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "ce17cf258c494f04a56ef4244927db21",
+    "time": "2026-10-15T01:18:16.142174+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_067fc489140ebe38016ad029d63138819492681dc60854fec5",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10571,
+      "input_tokens_details": {
+        "cache_write_tokens": 128,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 149,
+      "output_tokens_details": {
+        "reasoning_tokens": 48
+      },
+      "total_tokens": 10720
+    },
+    "input_tokens": 10571,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 128,
+    "uncached_input_tokens": 126,
+    "output_tokens": 149,
+    "cost_usd": 0.00020627
+  },
+  {
+    "run_id": "5dcd6d9da1bc4eff937c68f492a8fab9",
+    "time": "2026-10-15T01:18:17.729515+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0bbf5d02a578c546016ad029d8a5c0819691a0ccddf55c84d5",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "5dcd6d9da1bc4eff937c68f492a8fab9",
+    "time": "2026-10-15T01:18:21.148724+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0bd733111e0e01e8016ad029da0b9081909179ec6d2e22d8ed",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10567,
+      "input_tokens_details": {
+        "cache_write_tokens": 124,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 10730
+    },
+    "input_tokens": 10567,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 124,
+    "uncached_input_tokens": 126,
+    "output_tokens": 163,
+    "cost_usd": 0.00021277
+  },
+  {
+    "run_id": "0170665beb1e492ab1ba5698611b4936",
+    "time": "2026-10-15T01:18:27.150141+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0bb8a28ffe150423016ad029ddb9308194bf5586b5b1c88dc2",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10445,
+      "input_tokens_details": {
+        "cache_write_tokens": 32,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10475
+    },
+    "input_tokens": 10445,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 32,
+    "uncached_input_tokens": 126,
+    "output_tokens": 30,
+    "cost_usd": 0.00013447
+  },
+  {
+    "run_id": "0170665beb1e492ab1ba5698611b4936",
+    "time": "2026-10-15T01:18:33.544155+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_05f315454385f77f016ad029e39378819494c5b751411beace",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10588,
+      "input_tokens_details": {
+        "cache_write_tokens": 143,
+        "cached_tokens": 10319
+      },
+      "output_tokens": 184,
+      "output_tokens_details": {
+        "reasoning_tokens": 73
+      },
+      "total_tokens": 10772
+    },
+    "input_tokens": 10588,
+    "cached_tokens": 10319,
+    "cache_write_tokens": 143,
+    "uncached_input_tokens": 126,
+    "output_tokens": 184,
+    "cost_usd": 0.000225665
+  },
+  {
+    "run_id": "a1fdb909671246249598874973e72a43",
+    "time": "2026-10-15T01:18:35.133803+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0473db3e53c16fb5016ad029e9ec0081969fa7bdac2fe8a29f",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "a1fdb909671246249598874973e72a43",
+    "time": "2026-10-15T01:18:38.548236+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_075b127c8bfaf3e1016ad029eb7ba081978b158fc179c8bb5a",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10571,
+      "input_tokens_details": {
+        "cache_write_tokens": 128,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 187,
+      "output_tokens_details": {
+        "reasoning_tokens": 96
+      },
+      "total_tokens": 10758
+    },
+    "input_tokens": 10571,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 128,
+    "uncached_input_tokens": 126,
+    "output_tokens": 187,
+    "cost_usd": 0.00022527
+  },
+  {
+    "run_id": "cc91ffadb2fb4797806d7a15c30d6fbc",
+    "time": "2026-10-15T01:18:41.830713+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ffbe11321ccce18016ad029ef0d9481939d6cec92df4b0088",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "cc91ffadb2fb4797806d7a15c30d6fbc",
+    "time": "2026-10-15T01:18:44.094807+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_029907153497de0f016ad029f24fc481958b0e5434a3bdcde6",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10561,
+      "input_tokens_details": {
+        "cache_write_tokens": 118,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 164,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 10725
+    },
+    "input_tokens": 10561,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 118,
+    "uncached_input_tokens": 126,
+    "output_tokens": 164,
+    "cost_usd": 0.00021252
+  },
+  {
+    "run_id": "de5f9b1c483e4190b1e28b5ae8c848ea",
+    "time": "2026-10-15T01:18:45.653384+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0dbc13759f568ec8016ad029f4a34c81949b03c19071a42435",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "de5f9b1c483e4190b1e28b5ae8c848ea",
+    "time": "2026-10-15T01:19:01.055437+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00f8fdf390dafa92016ad029f70a908195b235df86bd1a9a2c",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10564,
+      "input_tokens_details": {
+        "cache_write_tokens": 121,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 203,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 10767
+    },
+    "input_tokens": 10564,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 121,
+    "uncached_input_tokens": 126,
+    "output_tokens": 203,
+    "cost_usd": 0.000232395
+  },
+  {
+    "run_id": "6242f32013df47bfb7114d2037e18643",
+    "time": "2026-10-15T01:19:05.421360+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b8534b4685c528b016ad02a0585a08190b174fbf4ea8b99b0",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10444,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10473
+    },
+    "input_tokens": 10444,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133845
+  },
+  {
+    "run_id": "6242f32013df47bfb7114d2037e18643",
+    "time": "2026-10-15T01:19:07.606103+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ca3ab2d2e2507b1016ad02a09b718819798b86e331988d5ef",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10545,
+      "input_tokens_details": {
+        "cache_write_tokens": 101,
+        "cached_tokens": 10318
+      },
+      "output_tokens": 179,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 10724
+    },
+    "input_tokens": 10545,
+    "cached_tokens": 10318,
+    "cache_write_tokens": 101,
+    "uncached_input_tokens": 126,
+    "output_tokens": 179,
+    "cost_usd": 0.000217905
+  },
+  {
+    "run_id": "6827fb401bd3457996ac39f520185e4c",
+    "time": "2026-10-15T01:19:09.195467+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a42531c9097024a016ad02a0c062c8193a5ac324510712fb9",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10444,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10473
+    },
+    "input_tokens": 10444,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133845
+  },
+  {
+    "run_id": "6827fb401bd3457996ac39f520185e4c",
+    "time": "2026-10-15T01:19:12.038021+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0547a45f5daabf7c016ad02a0dcac881969eebe79ad63bab68",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10541,
+      "input_tokens_details": {
+        "cache_write_tokens": 97,
+        "cached_tokens": 10318
+      },
+      "output_tokens": 137,
+      "output_tokens_details": {
+        "reasoning_tokens": 46
+      },
+      "total_tokens": 10678
+    },
+    "input_tokens": 10541,
+    "cached_tokens": 10318,
+    "cache_write_tokens": 97,
+    "uncached_input_tokens": 126,
+    "output_tokens": 137,
+    "cost_usd": 0.000196405
+  },
+  {
+    "run_id": "402bdb2455c947189b07ee36ebf815f0",
+    "time": "2026-10-15T01:19:13.684708+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_06ffa0d2732631cf016ad02a1086688190868748186fe9e0f6",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10444,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10473
+    },
+    "input_tokens": 10444,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133845
+  },
+  {
+    "run_id": "402bdb2455c947189b07ee36ebf815f0",
+    "time": "2026-10-15T01:19:16.318940+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a72d0439174d2a0016ad02a1220208195870980c190b324f5",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10557,
+      "input_tokens_details": {
+        "cache_write_tokens": 113,
+        "cached_tokens": 10318
+      },
+      "output_tokens": 190,
+      "output_tokens_details": {
+        "reasoning_tokens": 79
+      },
+      "total_tokens": 10747
+    },
+    "input_tokens": 10557,
+    "cached_tokens": 10318,
+    "cache_write_tokens": 113,
+    "uncached_input_tokens": 126,
+    "output_tokens": 190,
+    "cost_usd": 0.000224905
+  },
+  {
+    "run_id": "4811012e6fe94db0a9e1c11f4c98d9ea",
+    "time": "2026-10-15T01:19:17.883342+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_08b1eaa09984a0b7016ad02a14ce7881939774acce93d32ba9",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "4811012e6fe94db0a9e1c11f4c98d9ea",
+    "time": "2026-10-15T01:19:20.848704+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0938060cf173c050016ad02a1649e08196a171e340bac38560",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10562,
+      "input_tokens_details": {
+        "cache_write_tokens": 119,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 226,
+      "output_tokens_details": {
+        "reasoning_tokens": 120
+      },
+      "total_tokens": 10788
+    },
+    "input_tokens": 10562,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 119,
+    "uncached_input_tokens": 126,
+    "output_tokens": 226,
+    "cost_usd": 0.000243645
+  },
+  {
+    "run_id": "cdb0a48d35a945e8964c637000ef73ea",
+    "time": "2026-10-15T01:19:22.386063+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_05316077a3c1a647016ad02a193e3081908320792411aea208",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10442,
+      "input_tokens_details": {
+        "cache_write_tokens": 29,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10469
+    },
+    "input_tokens": 10442,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 29,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.000132595
+  },
+  {
+    "run_id": "cdb0a48d35a945e8964c637000ef73ea",
+    "time": "2026-10-15T01:19:25.179863+00:00",
+    "experiment": "code",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e72d230c46c4aac016ad02a1aadd88193bd71fb2c13fb3115",
+    "layers": [
+      "code"
+    ],
+    "raw_usage": {
+      "input_tokens": 10553,
+      "input_tokens_details": {
+        "cache_write_tokens": 111,
+        "cached_tokens": 10316
+      },
+      "output_tokens": 216,
+      "output_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "total_tokens": 10769
+    },
+    "input_tokens": 10553,
+    "cached_tokens": 10316,
+    "cache_write_tokens": 111,
+    "uncached_input_tokens": 126,
+    "output_tokens": 216,
+    "cost_usd": 0.000237635
+  },
+  {
+    "run_id": "0d447359905f43f993bca51dc31a77a9",
+    "time": "2026-10-15T01:19:29.835656+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a195f032de7507d016ad02a1debc481948e44560987589afe",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10374,
+      "input_tokens_details": {
+        "cache_write_tokens": 10248,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10401
+    },
+    "input_tokens": 10374,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10248,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.0013071
+  },
+  {
+    "run_id": "0d447359905f43f993bca51dc31a77a9",
+    "time": "2026-10-15T01:19:32.212185+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0d45abc804299b0a016ad02a222510819784740065a571b79c",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10525,
+      "input_tokens_details": {
+        "cache_write_tokens": 151,
+        "cached_tokens": 10248
+      },
+      "output_tokens": 177,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 10702
+    },
+    "input_tokens": 10525,
+    "cached_tokens": 10248,
+    "cache_write_tokens": 151,
+    "uncached_input_tokens": 126,
+    "output_tokens": 177,
+    "cost_usd": 0.000222455
+  },
+  {
+    "run_id": "95f35d08f75847c4aeb0b47597cf1352",
+    "time": "2026-10-15T01:19:41.401446+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0cb116c59cce6b8d016ad02a2666a08194a664ee64cd3293e1",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10375,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10403
+    },
+    "input_tokens": 10375,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013254
+  },
+  {
+    "run_id": "95f35d08f75847c4aeb0b47597cf1352",
+    "time": "2026-10-15T01:19:43.693592+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_002371384664b5fe016ad02a2db4548195b20087b624190c9b",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10503,
+      "input_tokens_details": {
+        "cache_write_tokens": 128,
+        "cached_tokens": 10249
+      },
+      "output_tokens": 171,
+      "output_tokens_details": {
+        "reasoning_tokens": 67
+      },
+      "total_tokens": 10674
+    },
+    "input_tokens": 10503,
+    "cached_tokens": 10249,
+    "cache_write_tokens": 128,
+    "uncached_input_tokens": 126,
+    "output_tokens": 171,
+    "cost_usd": 0.00021659
+  },
+  {
+    "run_id": "e050a50df3d94a1c95a5a0a882fc2448",
+    "time": "2026-10-15T01:19:49.523141+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0035f2dc1f85ef75016ad02a3130108195917121744d54a99b",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10375,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10403
+    },
+    "input_tokens": 10375,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013254
+  },
+  {
+    "run_id": "e050a50df3d94a1c95a5a0a882fc2448",
+    "time": "2026-10-15T01:19:54.412595+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e1b1d3f5f5d8a73016ad02a3627b08196ab35bcf8bdec7417",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10499,
+      "input_tokens_details": {
+        "cache_write_tokens": 124,
+        "cached_tokens": 10249
+      },
+      "output_tokens": 219,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 10718
+    },
+    "input_tokens": 10499,
+    "cached_tokens": 10249,
+    "cache_write_tokens": 124,
+    "uncached_input_tokens": 126,
+    "output_tokens": 219,
+    "cost_usd": 0.00024009
+  },
+  {
+    "run_id": "27574568134a4a15bf2ee8ec2bd9a341",
+    "time": "2026-10-15T01:20:00.996935+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_095c83368da6eeb4016ad02a3adb208197814fd28727797d59",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10377,
+      "input_tokens_details": {
+        "cache_write_tokens": 32,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10407
+    },
+    "input_tokens": 10377,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 32,
+    "uncached_input_tokens": 126,
+    "output_tokens": 30,
+    "cost_usd": 0.00013379
+  },
+  {
+    "run_id": "27574568134a4a15bf2ee8ec2bd9a341",
+    "time": "2026-10-15T01:20:05.022885+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_08afb300ec4c61a8016ad02a415b088195b33628f5c86c9471",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10520,
+      "input_tokens_details": {
+        "cache_write_tokens": 143,
+        "cached_tokens": 10251
+      },
+      "output_tokens": 181,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 10701
+    },
+    "input_tokens": 10520,
+    "cached_tokens": 10251,
+    "cache_write_tokens": 143,
+    "uncached_input_tokens": 126,
+    "output_tokens": 181,
+    "cost_usd": 0.000223485
+  },
+  {
+    "run_id": "2fa66afef1594b03a7916d19e8af1ee6",
+    "time": "2026-10-15T01:20:08.654132+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_04fb0c35566abf4a016ad02a45cf0081978b6521975b3aa3a0",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10375,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10403
+    },
+    "input_tokens": 10375,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013254
+  },
+  {
+    "run_id": "2fa66afef1594b03a7916d19e8af1ee6",
+    "time": "2026-10-15T01:20:11.073223+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ef2ea6273a253d7016ad02a48fa3081909fcdcd6604346257",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10503,
+      "input_tokens_details": {
+        "cache_write_tokens": 128,
+        "cached_tokens": 10249
+      },
+      "output_tokens": 234,
+      "output_tokens_details": {
+        "reasoning_tokens": 122
+      },
+      "total_tokens": 10737
+    },
+    "input_tokens": 10503,
+    "cached_tokens": 10249,
+    "cache_write_tokens": 128,
+    "uncached_input_tokens": 126,
+    "output_tokens": 234,
+    "cost_usd": 0.00024809
+  },
+  {
+    "run_id": "c25173c4b39742b19a06787da2f7ec9c",
+    "time": "2026-10-15T01:20:12.722333+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0fc785bb7be4df8e016ad02a4b7d5c819483ceeef8431efba9",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10375,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10403
+    },
+    "input_tokens": 10375,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013254
+  },
+  {
+    "run_id": "c25173c4b39742b19a06787da2f7ec9c",
+    "time": "2026-10-15T01:20:14.960168+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0d9c5a35cde85e99016ad02a4d04908190ae4576aa1bcdb741",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10493,
+      "input_tokens_details": {
+        "cache_write_tokens": 118,
+        "cached_tokens": 10249
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 37
+      },
+      "total_tokens": 10641
+    },
+    "input_tokens": 10493,
+    "cached_tokens": 10249,
+    "cache_write_tokens": 118,
+    "uncached_input_tokens": 126,
+    "output_tokens": 148,
+    "cost_usd": 0.00020384
+  },
+  {
+    "run_id": "03a88985129548298c7df20350c4212f",
+    "time": "2026-10-15T01:20:17.592693+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b9100afaf9a59d7016ad02a4fb984819582c9a880b9cc5e61",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10375,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10403
+    },
+    "input_tokens": 10375,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013254
+  },
+  {
+    "run_id": "03a88985129548298c7df20350c4212f",
+    "time": "2026-10-15T01:20:37.977531+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_05939211a76c68c0016ad02a521cf88195818e8c1da57ab344",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10496,
+      "input_tokens_details": {
+        "cache_write_tokens": 121,
+        "cached_tokens": 10249
+      },
+      "output_tokens": 198,
+      "output_tokens_details": {
+        "reasoning_tokens": 87
+      },
+      "total_tokens": 10694
+    },
+    "input_tokens": 10496,
+    "cached_tokens": 10249,
+    "cache_write_tokens": 121,
+    "uncached_input_tokens": 126,
+    "output_tokens": 198,
+    "cost_usd": 0.000229215
+  },
+  {
+    "run_id": "06fcb867c2c549b58095f92e1adcfea9",
+    "time": "2026-10-15T01:21:06.818895+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_01773f49e27001b1016ad02a6b1e4081969f1627c86c48fbc7",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10376,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10405
+    },
+    "input_tokens": 10376,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133165
+  },
+  {
+    "run_id": "06fcb867c2c549b58095f92e1adcfea9",
+    "time": "2026-10-15T01:21:09.159707+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ff31bf0811be5be016ad02a8321d08195a8f07f9234f76bef",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10477,
+      "input_tokens_details": {
+        "cache_write_tokens": 101,
+        "cached_tokens": 10250
+      },
+      "output_tokens": 175,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 10652
+    },
+    "input_tokens": 10477,
+    "cached_tokens": 10250,
+    "cache_write_tokens": 101,
+    "uncached_input_tokens": 126,
+    "output_tokens": 175,
+    "cost_usd": 0.000215225
+  },
+  {
+    "run_id": "52fa74699b5247bc8c64d1e0019512b7",
+    "time": "2026-10-15T01:21:12.463656+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0684ca356de0c8d6016ad02a85c8108196ac5e4925b12ed992",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10376,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10405
+    },
+    "input_tokens": 10376,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133165
+  },
+  {
+    "run_id": "52fa74699b5247bc8c64d1e0019512b7",
+    "time": "2026-10-15T01:21:14.595372+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_004b668e8465a47c016ad02a88c4f08196b544b3ceade413d2",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10473,
+      "input_tokens_details": {
+        "cache_write_tokens": 97,
+        "cached_tokens": 10250
+      },
+      "output_tokens": 158,
+      "output_tokens_details": {
+        "reasoning_tokens": 52
+      },
+      "total_tokens": 10631
+    },
+    "input_tokens": 10473,
+    "cached_tokens": 10250,
+    "cache_write_tokens": 97,
+    "uncached_input_tokens": 126,
+    "output_tokens": 158,
+    "cost_usd": 0.000206225
+  },
+  {
+    "run_id": "6ad0dbba363e4b5fbb9098f3de0cf041",
+    "time": "2026-10-15T01:21:19.371615+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ed1225d33d7d33b016ad02a8b69848193a47a06547eb8391b",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10376,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10405
+    },
+    "input_tokens": 10376,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000133165
+  },
+  {
+    "run_id": "6ad0dbba363e4b5fbb9098f3de0cf041",
+    "time": "2026-10-15T01:21:21.772775+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_02d18207f6c5841f016ad02a8fc26c8196a110c0bdfc3d4f7f",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10489,
+      "input_tokens_details": {
+        "cache_write_tokens": 113,
+        "cached_tokens": 10250
+      },
+      "output_tokens": 187,
+      "output_tokens_details": {
+        "reasoning_tokens": 82
+      },
+      "total_tokens": 10676
+    },
+    "input_tokens": 10489,
+    "cached_tokens": 10250,
+    "cache_write_tokens": 113,
+    "uncached_input_tokens": 126,
+    "output_tokens": 187,
+    "cost_usd": 0.000222725
+  },
+  {
+    "run_id": "834b6ada4bbd420b9c7a3ef6ac84ea4f",
+    "time": "2026-10-15T01:21:27.744341+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0d4b8e455166f56b016ad02a9221b881958dde655ba30b7444",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10375,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10403
+    },
+    "input_tokens": 10375,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013254
+  },
+  {
+    "run_id": "834b6ada4bbd420b9c7a3ef6ac84ea4f",
+    "time": "2026-10-15T01:21:30.462336+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_007b1a7fb5d313b6016ad02a981d408195a4981547c33691a0",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10494,
+      "input_tokens_details": {
+        "cache_write_tokens": 119,
+        "cached_tokens": 10249
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 10657
+    },
+    "input_tokens": 10494,
+    "cached_tokens": 10249,
+    "cache_write_tokens": 119,
+    "uncached_input_tokens": 126,
+    "output_tokens": 163,
+    "cost_usd": 0.000211465
+  },
+  {
+    "run_id": "98dd9b51527a421185a4b72866e083e3",
+    "time": "2026-10-15T01:21:32.303662+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0fdd93dae0fecba1016ad02a9b26e0819390ab7baa71584639",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10374,
+      "input_tokens_details": {
+        "cache_write_tokens": 29,
+        "cached_tokens": 10219
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10401
+    },
+    "input_tokens": 10374,
+    "cached_tokens": 10219,
+    "cache_write_tokens": 29,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.000131915
+  },
+  {
+    "run_id": "98dd9b51527a421185a4b72866e083e3",
+    "time": "2026-10-15T01:21:36.325874+00:00",
+    "experiment": "code_design",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_049bd3d71310890c016ad02a9cc7148196a908a28bff526ddf",
+    "layers": [
+      "code",
+      "design"
+    ],
+    "raw_usage": {
+      "input_tokens": 10485,
+      "input_tokens_details": {
+        "cache_write_tokens": 111,
+        "cached_tokens": 10248
+      },
+      "output_tokens": 240,
+      "output_tokens_details": {
+        "reasoning_tokens": 147
+      },
+      "total_tokens": 10725
+    },
+    "input_tokens": 10485,
+    "cached_tokens": 10248,
+    "cache_write_tokens": 111,
+    "uncached_input_tokens": 126,
+    "output_tokens": 240,
+    "cost_usd": 0.000248955
+  },
+  {
+    "run_id": "eff161e1ada74f9a88a71a0f58ade6ec",
+    "time": "2026-10-15T01:21:37.995807+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_08acf2f7e4b2a0b6016ad02aa0c4e08194b5f34018b78acb74",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10580,
+      "input_tokens_details": {
+        "cache_write_tokens": 10454,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10607
+    },
+    "input_tokens": 10580,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10454,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.00133285
+  },
+  {
+    "run_id": "eff161e1ada74f9a88a71a0f58ade6ec",
+    "time": "2026-10-15T01:21:41.136140+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p01_bluehen_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e7e06beb1dca18f016ad02aa24354819382de59818a4c512a",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10731,
+      "input_tokens_details": {
+        "cache_write_tokens": 151,
+        "cached_tokens": 10454
+      },
+      "output_tokens": 167,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 10898
+    },
+    "input_tokens": 10731,
+    "cached_tokens": 10454,
+    "cache_write_tokens": 151,
+    "uncached_input_tokens": 126,
+    "output_tokens": 167,
+    "cost_usd": 0.000219515
+  },
+  {
+    "run_id": "1d51c35ef4344196abfb63b133d7401a",
+    "time": "2026-10-15T01:21:42.994033+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0c4e25462b8076bb016ad02aa57d088196879bb3f6cfc6df8c",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10581,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10609
+    },
+    "input_tokens": 10581,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.0001346
+  },
+  {
+    "run_id": "1d51c35ef4344196abfb63b133d7401a",
+    "time": "2026-10-15T01:21:45.150370+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p02_elmcity_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a95d24161cf59e6016ad02aa74ab881908c0a1f3c77f187f3",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10709,
+      "input_tokens_details": {
+        "cache_write_tokens": 128,
+        "cached_tokens": 10455
+      },
+      "output_tokens": 137,
+      "output_tokens_details": {
+        "reasoning_tokens": 38
+      },
+      "total_tokens": 10846
+    },
+    "input_tokens": 10709,
+    "cached_tokens": 10455,
+    "cache_write_tokens": 128,
+    "uncached_input_tokens": 126,
+    "output_tokens": 137,
+    "cost_usd": 0.00020165
+  },
+  {
+    "run_id": "984a77ec4b7a4752afded3997d72bf16",
+    "time": "2026-10-15T01:21:47.583857+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_06732831f157fe0c016ad02aa9b2bc8196a41c56844ff532f2",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10581,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10609
+    },
+    "input_tokens": 10581,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.0001346
+  },
+  {
+    "run_id": "984a77ec4b7a4752afded3997d72bf16",
+    "time": "2026-10-15T01:21:57.604848+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p03_ivyprint_catalog.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_03a78e01c08c472e016ad02aadce988193b58014ab029f1650",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10705,
+      "input_tokens_details": {
+        "cache_write_tokens": 124,
+        "cached_tokens": 10455
+      },
+      "output_tokens": 198,
+      "output_tokens_details": {
+        "reasoning_tokens": 98
+      },
+      "total_tokens": 10903
+    },
+    "input_tokens": 10705,
+    "cached_tokens": 10455,
+    "cache_write_tokens": 124,
+    "uncached_input_tokens": 126,
+    "output_tokens": 198,
+    "cost_usd": 0.00023165
+  },
+  {
+    "run_id": "bbf7f85654e34ddead39a9e0e13c08f4",
+    "time": "2026-10-15T01:22:00.045117+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_011564d7ae833585016ad02ab6cec08190925d71b6c6462086",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10583,
+      "input_tokens_details": {
+        "cache_write_tokens": 32,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10613
+    },
+    "input_tokens": 10583,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 32,
+    "uncached_input_tokens": 126,
+    "output_tokens": 30,
+    "cost_usd": 0.00013585
+  },
+  {
+    "run_id": "bbf7f85654e34ddead39a9e0e13c08f4",
+    "time": "2026-10-15T01:22:06.305711+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p04_harborstitch_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0c890d1f4210d641016ad02ab863a08194aff8ff6729e04207",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10726,
+      "input_tokens_details": {
+        "cache_write_tokens": 143,
+        "cached_tokens": 10457
+      },
+      "output_tokens": 170,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 10896
+    },
+    "input_tokens": 10726,
+    "cached_tokens": 10457,
+    "cache_write_tokens": 143,
+    "uncached_input_tokens": 126,
+    "output_tokens": 170,
+    "cost_usd": 0.000220045
+  },
+  {
+    "run_id": "e670251da0ac49e9bc08c71c4a08e601",
+    "time": "2026-10-15T01:22:09.096725+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0919b81b100a7e70016ad02abeda788194b975025a77d0471a",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10581,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10609
+    },
+    "input_tokens": 10581,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.0001346
+  },
+  {
+    "run_id": "e670251da0ac49e9bc08c71c4a08e601",
+    "time": "2026-10-15T01:22:13.332659+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p05_maplemills_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0aa108cf4eae3ff6016ad02ac153408190906ae241392d55b4",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10709,
+      "input_tokens_details": {
+        "cache_write_tokens": 128,
+        "cached_tokens": 10455
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 66
+      },
+      "total_tokens": 10868
+    },
+    "input_tokens": 10709,
+    "cached_tokens": 10455,
+    "cache_write_tokens": 128,
+    "uncached_input_tokens": 126,
+    "output_tokens": 159,
+    "cost_usd": 0.00021265
+  },
+  {
+    "run_id": "f047d4def99f4f239537f8e1074b463e",
+    "time": "2026-10-15T01:22:15.036066+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0775998d424c8666016ad02ac5baf0819391faa4d38504288e",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10581,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10609
+    },
+    "input_tokens": 10581,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.0001346
+  },
+  {
+    "run_id": "f047d4def99f4f239537f8e1074b463e",
+    "time": "2026-10-15T01:22:20.454138+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p06_qtextile_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e9b9322691b43a4016ad02ac898b08193847589bf18402747",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10699,
+      "input_tokens_details": {
+        "cache_write_tokens": 118,
+        "cached_tokens": 10455
+      },
+      "output_tokens": 141,
+      "output_tokens_details": {
+        "reasoning_tokens": 39
+      },
+      "total_tokens": 10840
+    },
+    "input_tokens": 10699,
+    "cached_tokens": 10455,
+    "cache_write_tokens": 118,
+    "uncached_input_tokens": 126,
+    "output_tokens": 141,
+    "cost_usd": 0.0002024
+  },
+  {
+    "run_id": "e16a1e912d0042519272c751546e311f",
+    "time": "2026-10-15T01:22:21.766752+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0d9e81da9e4af8ad016ad02accd2b88190b46ad6d990abbfa9",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10581,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10609
+    },
+    "input_tokens": 10581,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.0001346
+  },
+  {
+    "run_id": "e16a1e912d0042519272c751546e311f",
+    "time": "2026-10-15T01:22:24.163262+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p07_longwharf_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_074260149dd31796016ad02ace20b88194a692f0c3b156f009",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10702,
+      "input_tokens_details": {
+        "cache_write_tokens": 121,
+        "cached_tokens": 10455
+      },
+      "output_tokens": 165,
+      "output_tokens_details": {
+        "reasoning_tokens": 63
+      },
+      "total_tokens": 10867
+    },
+    "input_tokens": 10702,
+    "cached_tokens": 10455,
+    "cache_write_tokens": 121,
+    "uncached_input_tokens": 126,
+    "output_tokens": 165,
+    "cost_usd": 0.000214775
+  },
+  {
+    "run_id": "8abdd6615dfd4779ae75410bfbcae93e",
+    "time": "2026-10-15T01:22:28.084417+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e9a4331ab7cc62d016ad02ad09bc48195b408c92063422919",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10582,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10611
+    },
+    "input_tokens": 10582,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000135225
+  },
+  {
+    "run_id": "8abdd6615dfd4779ae75410bfbcae93e",
+    "time": "2026-10-15T01:22:35.954349+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p08_chapelst_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ae640790280ccce016ad02ad473bc81959bc9b0f6eb750823",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10683,
+      "input_tokens_details": {
+        "cache_write_tokens": 101,
+        "cached_tokens": 10456
+      },
+      "output_tokens": 185,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 10868
+    },
+    "input_tokens": 10683,
+    "cached_tokens": 10456,
+    "cache_write_tokens": 101,
+    "uncached_input_tokens": 126,
+    "output_tokens": 185,
+    "cost_usd": 0.000222285
+  },
+  {
+    "run_id": "f4a169cd8583434d9be2e6c6ab584690",
+    "time": "2026-10-15T01:22:44.158210+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0dd6d7099f179ee5016ad02addc4808195a0cce2a77475ecb5",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10582,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10611
+    },
+    "input_tokens": 10582,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000135225
+  },
+  {
+    "run_id": "f4a169cd8583434d9be2e6c6ab584690",
+    "time": "2026-10-15T01:22:48.110556+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p09_westville_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0674266c4cde8ed0016ad02ae524f48195892ceb9baf3d19e5",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10679,
+      "input_tokens_details": {
+        "cache_write_tokens": 97,
+        "cached_tokens": 10456
+      },
+      "output_tokens": 169,
+      "output_tokens_details": {
+        "reasoning_tokens": 58
+      },
+      "total_tokens": 10848
+    },
+    "input_tokens": 10679,
+    "cached_tokens": 10456,
+    "cache_write_tokens": 97,
+    "uncached_input_tokens": 126,
+    "output_tokens": 169,
+    "cost_usd": 0.000213785
+  },
+  {
+    "run_id": "a26d25312c8547eb87baaf166088e663",
+    "time": "2026-10-15T01:22:49.982344+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0567f37537f24f2f016ad02ae8d0d881939c9c18a2564909d7",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10582,
+      "input_tokens_details": {
+        "cache_write_tokens": 31,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 29,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10611
+    },
+    "input_tokens": 10582,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 31,
+    "uncached_input_tokens": 126,
+    "output_tokens": 29,
+    "cost_usd": 0.000135225
+  },
+  {
+    "run_id": "a26d25312c8547eb87baaf166088e663",
+    "time": "2026-10-15T01:23:01.353666+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p10_eastrock_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_09f9f966741c3535016ad02aee47308195816bf25c828e85e9",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10695,
+      "input_tokens_details": {
+        "cache_write_tokens": 113,
+        "cached_tokens": 10456
+      },
+      "output_tokens": 166,
+      "output_tokens_details": {
+        "reasoning_tokens": 70
+      },
+      "total_tokens": 10861
+    },
+    "input_tokens": 10695,
+    "cached_tokens": 10456,
+    "cache_write_tokens": 113,
+    "uncached_input_tokens": 126,
+    "output_tokens": 166,
+    "cost_usd": 0.000214285
+  },
+  {
+    "run_id": "0c242093370b406cb9297ef57708ffd4",
+    "time": "2026-10-15T01:23:03.444623+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00acfe956b3ea92a016ad02af5d0248196ab61d443d0a65217",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10581,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10609
+    },
+    "input_tokens": 10581,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.0001346
+  },
+  {
+    "run_id": "0c242093370b406cb9297ef57708ffd4",
+    "time": "2026-10-15T01:23:05.902023+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p11_yorkst_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00eacebba8067aaa016ad02af7bff881939fd78baf05aa27b8",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10700,
+      "input_tokens_details": {
+        "cache_write_tokens": 119,
+        "cached_tokens": 10455
+      },
+      "output_tokens": 168,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 10868
+    },
+    "input_tokens": 10700,
+    "cached_tokens": 10455,
+    "cache_write_tokens": 119,
+    "uncached_input_tokens": 126,
+    "output_tokens": 168,
+    "cost_usd": 0.000216025
+  },
+  {
+    "run_id": "ce773a48966e4e2491692426de145863",
+    "time": "2026-10-15T01:23:07.715002+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_048f2b80497e49fd016ad02afa6cf881938f40566c08c1a434",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10580,
+      "input_tokens_details": {
+        "cache_write_tokens": 29,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10607
+    },
+    "input_tokens": 10580,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 29,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.000133975
+  },
+  {
+    "run_id": "ce773a48966e4e2491692426de145863",
+    "time": "2026-10-15T01:23:22.844514+00:00",
+    "experiment": "code_design_prompt",
+    "setup": "with_cache",
+    "document": "p12_bluehen_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00aad3b54dd7db2a016ad02afd0a0c8196adb3c3896ed0423d",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10691,
+      "input_tokens_details": {
+        "cache_write_tokens": 111,
+        "cached_tokens": 10454
+      },
+      "output_tokens": 158,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 10849
+    },
+    "input_tokens": 10691,
+    "cached_tokens": 10454,
+    "cache_write_tokens": 111,
+    "uncached_input_tokens": 126,
+    "output_tokens": 158,
+    "cost_usd": 0.000210015
+  },
+  {
+    "run_id": "5088d01f18bb4e5b929e1fc2752a9062",
+    "time": "2026-10-15T01:23:33.860739+00:00",
+    "experiment": "red_team_undefended",
+    "setup": "with_cache",
+    "document": "a01_template_minimum.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_03f39c16678d2be5016ad02b14b95881979157ca61e70eff3f",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10442,
+      "input_tokens_details": {
+        "cache_write_tokens": 10316,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10469
+    },
+    "input_tokens": 10442,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10316,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.0013156
+  },
+  {
+    "run_id": "5088d01f18bb4e5b929e1fc2752a9062",
+    "time": "2026-10-15T01:23:36.658047+00:00",
+    "experiment": "red_team_undefended",
+    "setup": "with_cache",
+    "document": "a01_template_minimum.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0b538e7b07f045d3016ad02b163e8881978e5bd3c0e8a3798b",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 11127,
+      "input_tokens_details": {
+        "cache_write_tokens": 685,
+        "cached_tokens": 10316
+      },
+      "output_tokens": 179,
+      "output_tokens_details": {
+        "reasoning_tokens": 72
+      },
+      "total_tokens": 11306
+    },
+    "input_tokens": 11127,
+    "cached_tokens": 10316,
+    "cache_write_tokens": 685,
+    "uncached_input_tokens": 126,
+    "output_tokens": 179,
+    "cost_usd": 0.000290885
+  },
+  {
+    "run_id": "226a16c3b2d34baf90cb764bdcab6bc7",
+    "time": "2026-10-15T01:23:38.817507+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e01_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a45e055c227e53e016ad02b159d1c8195a092b39bd1196fb7",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 10452,
+        "cached_tokens": 0
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10452,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.0013316
+  },
+  {
+    "run_id": "3a57147e155a4552a05dea75426973e9",
+    "time": "2026-10-15T01:23:38.962145+00:00",
+    "experiment": "red_team_defended",
+    "setup": "with_cache",
+    "document": "a01_template_minimum.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a4d6a7e19f9bda9016ad02b191d9c81948f67b37de5f3e57e",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10580,
+      "input_tokens_details": {
+        "cache_write_tokens": 10454,
+        "cached_tokens": 0
+      },
+      "output_tokens": 27,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10607
+    },
+    "input_tokens": 10580,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10454,
+    "uncached_input_tokens": 126,
+    "output_tokens": 27,
+    "cost_usd": 0.00133285
+  },
+  {
+    "run_id": "226a16c3b2d34baf90cb764bdcab6bc7",
+    "time": "2026-10-15T01:23:40.909526+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e01_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0563d14b204a6673016ad02b1b24ac819689d1f2184963e96c",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10690,
+      "input_tokens_details": {
+        "cache_write_tokens": 112,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 151,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 10841
+    },
+    "input_tokens": 10690,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 112,
+    "uncached_input_tokens": 126,
+    "output_tokens": 151,
+    "cost_usd": 0.00020662
+  },
+  {
+    "run_id": "7824225589ea4e98881964531915c769",
+    "time": "2026-10-15T01:23:42.440368+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e02_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0289fa88fdde7537016ad02b1d586c819782fb314db33ade57",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "3a57147e155a4552a05dea75426973e9",
+    "time": "2026-10-15T01:23:42.982330+00:00",
+    "experiment": "red_team_defended",
+    "setup": "with_cache",
+    "document": "a01_template_minimum.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00fbe806ea871f68016ad02b1b4e788196b0ae3833e529decb",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10726,
+      "input_tokens_details": {
+        "cache_write_tokens": 146,
+        "cached_tokens": 10454
+      },
+      "output_tokens": 227,
+      "output_tokens_details": {
+        "reasoning_tokens": 130
+      },
+      "total_tokens": 10953
+    },
+    "input_tokens": 10726,
+    "cached_tokens": 10454,
+    "cache_write_tokens": 146,
+    "uncached_input_tokens": 126,
+    "output_tokens": 227,
+    "cost_usd": 0.00024889
+  },
+  {
+    "run_id": "7824225589ea4e98881964531915c769",
+    "time": "2026-10-15T01:23:47.549513+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e02_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ba2ed93ed895be1016ad02b1fdc608190bc074c855c6f19b2",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10685,
+      "input_tokens_details": {
+        "cache_write_tokens": 107,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 232,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 10917
+    },
+    "input_tokens": 10685,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 107,
+    "uncached_input_tokens": 126,
+    "output_tokens": 232,
+    "cost_usd": 0.000246495
+  },
+  {
+    "run_id": "aef5bf0b66fe4e4b9521ef9cd67b16ae",
+    "time": "2026-10-15T01:23:50.762567+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e03_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0323db2cbc4b796c016ad02b23fc088193ad3682934bfe6e32",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "aef5bf0b66fe4e4b9521ef9cd67b16ae",
+    "time": "2026-10-15T01:23:54.827184+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e03_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_08fb0a8eb4bb8d25016ad02b2724c48194995453aa95940f05",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10691,
+      "input_tokens_details": {
+        "cache_write_tokens": 113,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 165,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 10856
+    },
+    "input_tokens": 10691,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 113,
+    "uncached_input_tokens": 126,
+    "output_tokens": 165,
+    "cost_usd": 0.000213745
+  },
+  {
+    "run_id": "637940d37aa54718a84ecac6d777c681",
+    "time": "2026-10-15T01:24:00.418521+00:00",
+    "experiment": "red_team_undefended",
+    "setup": "with_cache",
+    "document": "a02_email_header_payment.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0199bb59a72a5fc7016ad02b22ee58819783056157e2e43e91",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "dd583a6b2d6e456d8404c279575d7f72",
+    "time": "2026-10-15T01:25:10.506721+00:00",
+    "experiment": "red_team_undefended",
+    "setup": "with_cache",
+    "document": "a02_email_header_payment.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0199bb59a72a5fc7016ad02b22ee58819783056157e2e43e91",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10443,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10287
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10471
+    },
+    "input_tokens": 10443,
+    "cached_tokens": 10287,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.00013322
+  },
+  {
+    "run_id": "dd583a6b2d6e456d8404c279575d7f72",
+    "time": "2026-10-15T01:25:18.241779+00:00",
+    "experiment": "red_team_undefended",
+    "setup": "with_cache",
+    "document": "a02_email_header_payment.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_048175c179d1c0d1016ad02b79ba2c819581e82e03a2787abe",
+    "layers": [],
+    "raw_usage": {
+      "input_tokens": 10817,
+      "input_tokens_details": {
+        "cache_write_tokens": 374,
+        "cached_tokens": 10317
+      },
+      "output_tokens": 185,
+      "output_tokens_details": {
+        "reasoning_tokens": 75
+      },
+      "total_tokens": 11002
+    },
+    "input_tokens": 10817,
+    "cached_tokens": 10317,
+    "cache_write_tokens": 374,
+    "uncached_input_tokens": 126,
+    "output_tokens": 185,
+    "cost_usd": 0.00025502
+  },
+  {
+    "run_id": "2587ff0933a8441b94593e652b790a62",
+    "time": "2026-10-15T01:25:21.178984+00:00",
+    "experiment": "red_team_defended",
+    "setup": "with_cache",
+    "document": "a02_email_header_payment.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_01f3be35bb2bfc0c016ad02b7eb0b0819792fd93afdc86210f",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10581,
+      "input_tokens_details": {
+        "cache_write_tokens": 30,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 28,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10609
+    },
+    "input_tokens": 10581,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 30,
+    "uncached_input_tokens": 126,
+    "output_tokens": 28,
+    "cost_usd": 0.0001346
+  },
+  {
+    "run_id": "2587ff0933a8441b94593e652b790a62",
+    "time": "2026-10-15T01:25:23.422961+00:00",
+    "experiment": "red_team_defended",
+    "setup": "with_cache",
+    "document": "a02_email_header_payment.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_020c13c9204fceb2016ad02b8178088193a768effe9bca4609",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10735,
+      "input_tokens_details": {
+        "cache_write_tokens": 154,
+        "cached_tokens": 10455
+      },
+      "output_tokens": 177,
+      "output_tokens_details": {
+        "reasoning_tokens": 68
+      },
+      "total_tokens": 10912
+    },
+    "input_tokens": 10735,
+    "cached_tokens": 10455,
+    "cache_write_tokens": 154,
+    "uncached_input_tokens": 126,
+    "output_tokens": 177,
+    "cost_usd": 0.0002249
+  },
+  {
+    "run_id": "1567545ac9b74dce99d362d5b383c7fe",
+    "time": "2026-10-15T01:25:52.061165+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e01_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a45e055c227e53e016ad02b159d1c8195a092b39bd1196fb7",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 10452,
+        "cached_tokens": 0
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10452,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.0013316
+  },
+  {
+    "run_id": "1567545ac9b74dce99d362d5b383c7fe",
+    "time": "2026-10-15T01:25:52.371955+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e01_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0563d14b204a6673016ad02b1b24ac819689d1f2184963e96c",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10690,
+      "input_tokens_details": {
+        "cache_write_tokens": 112,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 151,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 10841
+    },
+    "input_tokens": 10690,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 112,
+    "uncached_input_tokens": 126,
+    "output_tokens": 151,
+    "cost_usd": 0.00020662
+  },
+  {
+    "run_id": "8ef60680dbb24d13ba64dbc1fe1f10e2",
+    "time": "2026-10-15T01:25:52.683137+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e02_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0289fa88fdde7537016ad02b1d586c819782fb314db33ade57",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "8ef60680dbb24d13ba64dbc1fe1f10e2",
+    "time": "2026-10-15T01:25:52.986405+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e02_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ba2ed93ed895be1016ad02b1fdc608190bc074c855c6f19b2",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10685,
+      "input_tokens_details": {
+        "cache_write_tokens": 107,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 232,
+      "output_tokens_details": {
+        "reasoning_tokens": 127
+      },
+      "total_tokens": 10917
+    },
+    "input_tokens": 10685,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 107,
+    "uncached_input_tokens": 126,
+    "output_tokens": 232,
+    "cost_usd": 0.000246495
+  },
+  {
+    "run_id": "47a8cbb0b9294a7a9d37022b95b61459",
+    "time": "2026-10-15T01:25:53.381217+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e03_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0323db2cbc4b796c016ad02b23fc088193ad3682934bfe6e32",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "47a8cbb0b9294a7a9d37022b95b61459",
+    "time": "2026-10-15T01:25:53.661266+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e03_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_08fb0a8eb4bb8d25016ad02b2724c48194995453aa95940f05",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10691,
+      "input_tokens_details": {
+        "cache_write_tokens": 113,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 165,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 10856
+    },
+    "input_tokens": 10691,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 113,
+    "uncached_input_tokens": 126,
+    "output_tokens": 165,
+    "cost_usd": 0.000213745
+  },
+  {
+    "run_id": "7acb1e0a6e7a4647808209fe03d4258d",
+    "time": "2026-10-15T01:26:01.837338+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e04_catalog.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0168f51476dda01b016ad02ba429a8819586080a5e3ae0f835",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 0,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.00012962
+  },
+  {
+    "run_id": "7acb1e0a6e7a4647808209fe03d4258d",
+    "time": "2026-10-15T01:26:04.700053+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e04_catalog.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_069b2cb34d22fef3016ad02baa26888195a7d8972db4cdd52f",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10685,
+      "input_tokens_details": {
+        "cache_write_tokens": 107,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 160,
+      "output_tokens_details": {
+        "reasoning_tokens": 65
+      },
+      "total_tokens": 10845
+    },
+    "input_tokens": 10685,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 107,
+    "uncached_input_tokens": 126,
+    "output_tokens": 160,
+    "cost_usd": 0.000210495
+  },
+  {
+    "run_id": "608cb41b5eca4ba5b51be5b80726819c",
+    "time": "2026-10-15T01:26:08.744067+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e05_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ebcb5f83e036eba016ad02bae24d881948dca8886c59d5ab8",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "608cb41b5eca4ba5b51be5b80726819c",
+    "time": "2026-10-15T01:26:11.477486+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e05_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_095cd91016b581c1016ad02bb10f448190bddecf7fd46c8ee6",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10693,
+      "input_tokens_details": {
+        "cache_write_tokens": 115,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 229,
+      "output_tokens_details": {
+        "reasoning_tokens": 124
+      },
+      "total_tokens": 10922
+    },
+    "input_tokens": 10693,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 115,
+    "uncached_input_tokens": 126,
+    "output_tokens": 229,
+    "cost_usd": 0.000245995
+  },
+  {
+    "run_id": "6d5a0f6ee71a422fa13c9ee11f047036",
+    "time": "2026-10-15T01:26:14.396853+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e06_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a4cafa300e26292016ad02bb40a9481948ab3c250cf26edf3",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "6d5a0f6ee71a422fa13c9ee11f047036",
+    "time": "2026-10-15T01:26:17.252018+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e06_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0781f9cc733f7f26016ad02bb6cfb08196a7fb190ada16090a",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10694,
+      "input_tokens_details": {
+        "cache_write_tokens": 116,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 54
+      },
+      "total_tokens": 10857
+    },
+    "input_tokens": 10694,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 116,
+    "uncached_input_tokens": 126,
+    "output_tokens": 163,
+    "cost_usd": 0.00021312
+  },
+  {
+    "run_id": "202ef22c9e8e428c81967df272babf10",
+    "time": "2026-10-15T01:26:22.750224+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e07_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_043ad8349a470541016ad02bbb1b3081958270cd90d32fdfed",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "202ef22c9e8e428c81967df272babf10",
+    "time": "2026-10-15T01:26:24.797191+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e07_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0bf83624fa7c5eb1016ad02bbf09308190882000e4dda1ccf4",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10688,
+      "input_tokens_details": {
+        "cache_write_tokens": 110,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 164,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 10852
+    },
+    "input_tokens": 10688,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 110,
+    "uncached_input_tokens": 126,
+    "output_tokens": 164,
+    "cost_usd": 0.00021287
+  },
+  {
+    "run_id": "320db8b406d0496d90d0f1532bcf5e7d",
+    "time": "2026-10-15T01:26:26.202612+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e08_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_094cbfcb276a3e84016ad02bc130fc8195ae47435e4470eff7",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10579,
+      "input_tokens_details": {
+        "cache_write_tokens": 28,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 26,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10605
+    },
+    "input_tokens": 10579,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 28,
+    "uncached_input_tokens": 126,
+    "output_tokens": 26,
+    "cost_usd": 0.00013335
+  },
+  {
+    "run_id": "320db8b406d0496d90d0f1532bcf5e7d",
+    "time": "2026-10-15T01:26:30.927052+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e08_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e11847db97af9c0016ad02bc2e5948193bee357757a67eeef",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10661,
+      "input_tokens_details": {
+        "cache_write_tokens": 82,
+        "cached_tokens": 10453
+      },
+      "output_tokens": 195,
+      "output_tokens_details": {
+        "reasoning_tokens": 85
+      },
+      "total_tokens": 10856
+    },
+    "input_tokens": 10661,
+    "cached_tokens": 10453,
+    "cache_write_tokens": 82,
+    "uncached_input_tokens": 126,
+    "output_tokens": 195,
+    "cost_usd": 0.00022488
+  },
+  {
+    "run_id": "a037e6a26f7743b997524e0191868dfc",
+    "time": "2026-10-15T01:26:32.765990+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e09_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ad2c1522be4a0b0016ad02bc7c43481979284e11aa4278062",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10579,
+      "input_tokens_details": {
+        "cache_write_tokens": 28,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 26,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10605
+    },
+    "input_tokens": 10579,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 28,
+    "uncached_input_tokens": 126,
+    "output_tokens": 26,
+    "cost_usd": 0.00013335
+  },
+  {
+    "run_id": "a037e6a26f7743b997524e0191868dfc",
+    "time": "2026-10-15T01:26:35.055180+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e09_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_077a6afebe871c57016ad02bc91ec4819399e7c323d9c8ed4e",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10705,
+      "input_tokens_details": {
+        "cache_write_tokens": 126,
+        "cached_tokens": 10453
+      },
+      "output_tokens": 155,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 10860
+    },
+    "input_tokens": 10705,
+    "cached_tokens": 10453,
+    "cache_write_tokens": 126,
+    "uncached_input_tokens": 126,
+    "output_tokens": 155,
+    "cost_usd": 0.00021038
+  },
+  {
+    "run_id": "c4701315d9aa4acaa98b0da5385edef6",
+    "time": "2026-10-15T01:26:36.616156+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e10_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0beab545ba4faa4d016ad02bcb92508190915d45d1e0124e20",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10579,
+      "input_tokens_details": {
+        "cache_write_tokens": 28,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 26,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10605
+    },
+    "input_tokens": 10579,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 28,
+    "uncached_input_tokens": 126,
+    "output_tokens": 26,
+    "cost_usd": 0.00013335
+  },
+  {
+    "run_id": "c4701315d9aa4acaa98b0da5385edef6",
+    "time": "2026-10-15T01:26:40.765720+00:00",
+    "experiment": "exam_final",
+    "setup": "with_cache",
+    "document": "e10_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_05b1b97614f8ef28016ad02bccfc908190bc19c0893c260ce0",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "raw_usage": {
+      "input_tokens": 10669,
+      "input_tokens_details": {
+        "cache_write_tokens": 90,
+        "cached_tokens": 10453
+      },
+      "output_tokens": 164,
+      "output_tokens_details": {
+        "reasoning_tokens": 59
+      },
+      "total_tokens": 10833
+    },
+    "input_tokens": 10669,
+    "cached_tokens": 10453,
+    "cache_write_tokens": 90,
+    "uncached_input_tokens": 126,
+    "output_tokens": 164,
+    "cost_usd": 0.00021038
+  },
+  {
+    "run_id": "6a701522703f4a4293bd839aaa5c16ed",
+    "time": "2026-10-15T01:31:34.329477+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e01_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0faea15cbded558d016ad02cf550d88190bab96b46aaff63ea",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 10452,
+        "cached_tokens": 0
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 0,
+    "cache_write_tokens": 10452,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.0013316
+  },
+  {
+    "run_id": "6a701522703f4a4293bd839aaa5c16ed",
+    "time": "2026-10-15T01:31:36.706219+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e01_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0007e8b81d1bc9b1016ad02cf6dcc08196b7006913b01d8c45",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10690,
+      "input_tokens_details": {
+        "cache_write_tokens": 112,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 174,
+      "output_tokens_details": {
+        "reasoning_tokens": 64
+      },
+      "total_tokens": 10864
+    },
+    "input_tokens": 10690,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 112,
+    "uncached_input_tokens": 126,
+    "output_tokens": 174,
+    "cost_usd": 0.00021812
+  },
+  {
+    "run_id": "ca6adc9c3d894dcea239bd04e6ec44a4",
+    "time": "2026-10-15T01:31:41.962531+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e02_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0ac3e16abba593a0016ad02cf962f0819094ebab14d7549cc3",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "ca6adc9c3d894dcea239bd04e6ec44a4",
+    "time": "2026-10-15T01:31:50.007309+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e02_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e0325ae0825bdae016ad02cffd50481978abb7e6a3e40d50d",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10685,
+      "input_tokens_details": {
+        "cache_write_tokens": 107,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 166,
+      "output_tokens_details": {
+        "reasoning_tokens": 69
+      },
+      "total_tokens": 10851
+    },
+    "input_tokens": 10685,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 107,
+    "uncached_input_tokens": 126,
+    "output_tokens": 166,
+    "cost_usd": 0.000213495
+  },
+  {
+    "run_id": "0abe0c21cde54231b0822c8dd3e8d7d7",
+    "time": "2026-10-15T01:31:52.515442+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e03_quote.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0cb4bf613154c62d016ad02d0691008197bcf0e17ea484d6e4",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "0abe0c21cde54231b0822c8dd3e8d7d7",
+    "time": "2026-10-15T01:31:56.250349+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e03_quote.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0a409915973b0339016ad02d0935908193a11c449278eb57ff",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10691,
+      "input_tokens_details": {
+        "cache_write_tokens": 113,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 162,
+      "output_tokens_details": {
+        "reasoning_tokens": 74
+      },
+      "total_tokens": 10853
+    },
+    "input_tokens": 10691,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 113,
+    "uncached_input_tokens": 126,
+    "output_tokens": 162,
+    "cost_usd": 0.000212245
+  },
+  {
+    "run_id": "6ebbe819460a4373a5975736d90547b3",
+    "time": "2026-10-15T01:31:58.204501+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e04_catalog.html",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_06ccf4eb90f45330016ad02d0ccad08195a1ca9a27301a29c8",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "6ebbe819460a4373a5975736d90547b3",
+    "time": "2026-10-15T01:32:00.952133+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e04_catalog.html",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_00f08db2eb30e3cb016ad02d0ea09c81908eb698a7ec273b11",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10685,
+      "input_tokens_details": {
+        "cache_write_tokens": 107,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 221,
+      "output_tokens_details": {
+        "reasoning_tokens": 121
+      },
+      "total_tokens": 10906
+    },
+    "input_tokens": 10685,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 107,
+    "uncached_input_tokens": 126,
+    "output_tokens": 221,
+    "cost_usd": 0.000240995
+  },
+  {
+    "run_id": "b1a4db1dae9043dbbdd05a5a56f381fe",
+    "time": "2026-10-15T01:32:03.138347+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e05_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_021ea3c2c5944ef1016ad02d1183008193a87c7f989027555c",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "b1a4db1dae9043dbbdd05a5a56f381fe",
+    "time": "2026-10-15T01:32:13.181651+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e05_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_06217d1ef6beabea016ad02d15fcf0819590385589eb8a0c19",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10693,
+      "input_tokens_details": {
+        "cache_write_tokens": 115,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 242,
+      "output_tokens_details": {
+        "reasoning_tokens": 153
+      },
+      "total_tokens": 10935
+    },
+    "input_tokens": 10693,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 115,
+    "uncached_input_tokens": 126,
+    "output_tokens": 242,
+    "cost_usd": 0.000252495
+  },
+  {
+    "run_id": "9d6033e0347c468791f97e5d827b35f5",
+    "time": "2026-10-15T01:32:16.926130+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e06_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_079d89393fdf9df7016ad02d1dce008193be5c3c3bc1f428a3",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "9d6033e0347c468791f97e5d827b35f5",
+    "time": "2026-10-15T01:32:19.545520+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e06_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_059e28057a26c364016ad02d21614881908cc09be7bbebf4d7",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10694,
+      "input_tokens_details": {
+        "cache_write_tokens": 116,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 194,
+      "output_tokens_details": {
+        "reasoning_tokens": 86
+      },
+      "total_tokens": 10888
+    },
+    "input_tokens": 10694,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 116,
+    "uncached_input_tokens": 126,
+    "output_tokens": 194,
+    "cost_usd": 0.00022862
+  },
+  {
+    "run_id": "ada7163805ab41d9ad622839f91c6c23",
+    "time": "2026-10-15T01:32:22.607098+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e07_quote.pdf",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0e6d3b9d4e5879ed016ad02d243ea4819093d3c54ca75470fa",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10578,
+      "input_tokens_details": {
+        "cache_write_tokens": 27,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 25,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10603
+    },
+    "input_tokens": 10578,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 27,
+    "uncached_input_tokens": 126,
+    "output_tokens": 25,
+    "cost_usd": 0.000132725
+  },
+  {
+    "run_id": "ada7163805ab41d9ad622839f91c6c23",
+    "time": "2026-10-15T01:32:25.316799+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e07_quote.pdf",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0fd93d148bd5924b016ad02d2710bc81949af324cf4452a09d",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10688,
+      "input_tokens_details": {
+        "cache_write_tokens": 110,
+        "cached_tokens": 10452
+      },
+      "output_tokens": 189,
+      "output_tokens_details": {
+        "reasoning_tokens": 90
+      },
+      "total_tokens": 10877
+    },
+    "input_tokens": 10688,
+    "cached_tokens": 10452,
+    "cache_write_tokens": 110,
+    "uncached_input_tokens": 126,
+    "output_tokens": 189,
+    "cost_usd": 0.00022537
+  },
+  {
+    "run_id": "193ba561b37b4227bd5eabccebf2c48e",
+    "time": "2026-10-15T01:32:27.441561+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e08_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_06d6c00601377026016ad02d29f59c8195af27bd0aa87d2b18",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10579,
+      "input_tokens_details": {
+        "cache_write_tokens": 28,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 26,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10605
+    },
+    "input_tokens": 10579,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 28,
+    "uncached_input_tokens": 126,
+    "output_tokens": 26,
+    "cost_usd": 0.00013335
+  },
+  {
+    "run_id": "193ba561b37b4227bd5eabccebf2c48e",
+    "time": "2026-10-15T01:32:29.980566+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e08_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0511b536e500a22c016ad02d2c06cc819393a8dfc6abd75579",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10661,
+      "input_tokens_details": {
+        "cache_write_tokens": 82,
+        "cached_tokens": 10453
+      },
+      "output_tokens": 171,
+      "output_tokens_details": {
+        "reasoning_tokens": 60
+      },
+      "total_tokens": 10832
+    },
+    "input_tokens": 10661,
+    "cached_tokens": 10453,
+    "cache_write_tokens": 82,
+    "uncached_input_tokens": 126,
+    "output_tokens": 171,
+    "cost_usd": 0.00021288
+  },
+  {
+    "run_id": "4c0f6c0c0f98488694e339567263f975",
+    "time": "2026-10-15T01:32:32.278970+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e09_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_068bccb70326aa20016ad02d2e9eac8190b8ebcae77df064ea",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10579,
+      "input_tokens_details": {
+        "cache_write_tokens": 28,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 26,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10605
+    },
+    "input_tokens": 10579,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 28,
+    "uncached_input_tokens": 126,
+    "output_tokens": 26,
+    "cost_usd": 0.00013335
+  },
+  {
+    "run_id": "4c0f6c0c0f98488694e339567263f975",
+    "time": "2026-10-15T01:32:34.607535+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e09_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0aa974cd616a77c0016ad02d30b6a481978c5224ed29ae5393",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10705,
+      "input_tokens_details": {
+        "cache_write_tokens": 126,
+        "cached_tokens": 10453
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 62
+      },
+      "total_tokens": 10864
+    },
+    "input_tokens": 10705,
+    "cached_tokens": 10453,
+    "cache_write_tokens": 126,
+    "uncached_input_tokens": 126,
+    "output_tokens": 159,
+    "cost_usd": 0.00021238
+  },
+  {
+    "run_id": "a749f2048b95474ab8725936e8abf4cf",
+    "time": "2026-10-15T01:32:36.878451+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e10_email.eml",
+    "call_index": 1,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_055c43d025957e36016ad02d3322b881968b49bdab9486d7fb",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10579,
+      "input_tokens_details": {
+        "cache_write_tokens": 28,
+        "cached_tokens": 10425
+      },
+      "output_tokens": 26,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 10605
+    },
+    "input_tokens": 10579,
+    "cached_tokens": 10425,
+    "cache_write_tokens": 28,
+    "uncached_input_tokens": 126,
+    "output_tokens": 26,
+    "cost_usd": 0.00013335
+  },
+  {
+    "run_id": "a749f2048b95474ab8725936e8abf4cf",
+    "time": "2026-10-15T01:32:39.444016+00:00",
+    "experiment": "exam_final_v2",
+    "setup": "with_cache",
+    "document": "e10_email.eml",
+    "call_index": 2,
+    "requested_model": "gpt-6-luna",
+    "model": "gpt-6-luna-global",
+    "response_id": "resp_0489eb7d34d30f5f016ad02d3555f8819084f6d67373d0ca52",
+    "layers": [
+      "code",
+      "design",
+      "prompt"
+    ],
+    "gateway_cache_status": "REFRESH",
+    "gateway_force_refresh_requested": true,
+    "raw_usage": {
+      "input_tokens": 10669,
+      "input_tokens_details": {
+        "cache_write_tokens": 90,
+        "cached_tokens": 10453
+      },
+      "output_tokens": 201,
+      "output_tokens_details": {
+        "reasoning_tokens": 93
+      },
+      "total_tokens": 10870
+    },
+    "input_tokens": 10669,
+    "cached_tokens": 10453,
+    "cache_write_tokens": 90,
+    "uncached_input_tokens": 126,
+    "output_tokens": 201,
+    "cost_usd": 0.00022888
+  }
+]
