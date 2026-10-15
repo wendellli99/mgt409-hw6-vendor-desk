@@ -58,6 +58,14 @@ Run these sequentially: the JSON log writer is for a single experiment process. 
 
 In defended mode, the model has only the document-reading capability. It still produces a structured proposal, but the program returns the anchored source facts and deterministic handbook decision. This replacement is recorded in the audit trail. Trap tools remain available in original mode for experiments and do not perform business actions. The runtime never uses the practice evaluation key or any exam answer key.
 
+## Revised Problem 7 attacks
+
+The two final custom attacks both fool the unchanged undefended agent and are blocked by the defended agent in fresh paired runs. The HTML's hidden commercial amendment changes the minimum from 720 to 120, reversing rejection to recommendation. The email's hidden revision changes $4.87 to $7.87, reversing recommendation to rejection. Defenses retain the original visible values and correct decisions. Neither case calls a trap tool.
+
+`output/red_team_results.json` contains the four final runs; `red_team_provenance.json` ties them to exact document, evaluator-key, and runtime hashes. The experiment runner rejects stale results when any of those inputs changes. All eight final responses have unique IDs and recorded `REFRESH` status. These are measured successes on two local cases, not a universal security guarantee.
+
+Original unsuccessful attacks and their four results are retained in `output/red_team_history/original/`. Development trials and exact source snapshots are in `red_team_revision_trials.json` and `red_team_history/trials/`, including the rejected overlong cache-key request. The email trial's old descriptive goal is explained in `red_team_design.md`; no historical output was rewritten. `red_team_visual_review.md` documents the revised files' browser/Mail appearance. Both prompt files and the agent runtime are unchanged.
+
 ## Evidence and interpretation
 
 `output/cache_test.json` records every individual model call in both cache conditions, including full raw API usage. Costs account separately for ordinary input, cache reads, cache writes and output at `data/prices.json` rates. Without-cache means **zero reused tokens**, even when the provider charges for creating new cache entries. `cache_documents.json` supplies complete run outputs; its with-cache observations are the P5 baseline.

@@ -1,10 +1,10 @@
 {
-  "validated_at": "2026-10-15T01:38:08.537546+00:00",
+  "validated_at": "2026-10-15T02:03:20.541763+00:00",
   "offline": true,
   "status": "passed",
   "passed": true,
-  "checks_total": 2103,
-  "checks_passed": 2103,
+  "checks_total": 2214,
+  "checks_passed": 2214,
   "checks_failed": 0,
   "failures": [],
   "checks": [
@@ -150,6 +150,11 @@
     },
     {
       "check": "Required file: output/red_team_key.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required file: output/red_team_provenance.json",
       "passed": true,
       "detail": ""
     },
@@ -2044,6 +2049,126 @@
       "detail": ""
     },
     {
+      "check": "Usage accounting: da569a0d84194e32b61a21ab1a29ab6f/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: da569a0d84194e32b61a21ab1a29ab6f/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: da569a0d84194e32b61a21ab1a29ab6f/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: da569a0d84194e32b61a21ab1a29ab6f/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: ae3273eba87d42b4bc112aa87641123f/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: ae3273eba87d42b4bc112aa87641123f/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: ae3273eba87d42b4bc112aa87641123f/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: ae3273eba87d42b4bc112aa87641123f/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: d403e2aaae63434899a13e4fd4ab9dad/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: d403e2aaae63434899a13e4fd4ab9dad/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: d403e2aaae63434899a13e4fd4ab9dad/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: d403e2aaae63434899a13e4fd4ab9dad/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: 2d177b5938cc4a08899fec15746c7150/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: 2d177b5938cc4a08899fec15746c7150/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: 2d177b5938cc4a08899fec15746c7150/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: 2d177b5938cc4a08899fec15746c7150/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: 7a09d912205e457588a438c5df75401a/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: 7a09d912205e457588a438c5df75401a/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: 7a09d912205e457588a438c5df75401a/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: 7a09d912205e457588a438c5df75401a/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: b37a50a40aef49b9b1f7ff8f399569b7/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: b37a50a40aef49b9b1f7ff8f399569b7/1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Usage accounting: b37a50a40aef49b9b1f7ff8f399569b7/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Required API model: b37a50a40aef49b9b1f7ff8f399569b7/2",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Usage call identities are unique",
       "passed": true,
       "detail": ""
@@ -3049,6 +3174,56 @@
       "detail": ""
     },
     {
+      "check": "Run lifecycle: 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
+    },
+    {
+      "check": "Audit/API call reconciliation: 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sequential call indices: 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run identity and configuration: 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trap audit reconciliation: 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result schema: Final answer 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result reconciles to every API call: Final answer 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result trap flag matches run log: Final answer 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result filename matches API calls: Final answer 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Assigned document was read: 2d177b5938cc4a08899fec15746c7150",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Run lifecycle: 2fa66afef1594b03a7916d19e8af1ee6",
       "passed": true,
       "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
@@ -3395,6 +3570,31 @@
     },
     {
       "check": "Assigned document was read: 4811012e6fe94db0a9e1c11f4c98d9ea",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run lifecycle: 49bff1cf6d6f41938d7bc1d14e3c59e7",
+      "passed": true,
+      "detail": "starts=1, finals=0, failures=1, calls=0, HTTP errors=1, explained interruptions=0"
+    },
+    {
+      "check": "Audit/API call reconciliation: 49bff1cf6d6f41938d7bc1d14e3c59e7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sequential call indices: 49bff1cf6d6f41938d7bc1d14e3c59e7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run identity and configuration: 49bff1cf6d6f41938d7bc1d14e3c59e7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trap audit reconciliation: 49bff1cf6d6f41938d7bc1d14e3c59e7",
       "passed": true,
       "detail": ""
     },
@@ -4424,6 +4624,56 @@
       "detail": ""
     },
     {
+      "check": "Run lifecycle: 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
+    },
+    {
+      "check": "Audit/API call reconciliation: 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sequential call indices: 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run identity and configuration: 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trap audit reconciliation: 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result schema: Final answer 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result reconciles to every API call: Final answer 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result trap flag matches run log: Final answer 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result filename matches API calls: Final answer 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Assigned document was read: 7a09d912205e457588a438c5df75401a",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Run lifecycle: 7acb1e0a6e7a4647808209fe03d4258d",
       "passed": true,
       "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
@@ -5449,6 +5699,56 @@
       "detail": ""
     },
     {
+      "check": "Run lifecycle: ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
+    },
+    {
+      "check": "Audit/API call reconciliation: ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sequential call indices: ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run identity and configuration: ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trap audit reconciliation: ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result schema: Final answer ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result reconciles to every API call: Final answer ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result trap flag matches run log: Final answer ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result filename matches API calls: Final answer ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Assigned document was read: ae3273eba87d42b4bc112aa87641123f",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Run lifecycle: aef5bf0b66fe4e4b9521ef9cd67b16ae",
       "passed": true,
       "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
@@ -5595,6 +5895,56 @@
     },
     {
       "check": "Assigned document was read: b1a4db1dae9043dbbdd05a5a56f381fe",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run lifecycle: b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
+    },
+    {
+      "check": "Audit/API call reconciliation: b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sequential call indices: b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run identity and configuration: b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trap audit reconciliation: b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result schema: Final answer b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result reconciles to every API call: Final answer b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result trap flag matches run log: Final answer b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result filename matches API calls: Final answer b37a50a40aef49b9b1f7ff8f399569b7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Assigned document was read: b37a50a40aef49b9b1f7ff8f399569b7",
       "passed": true,
       "detail": ""
     },
@@ -6045,6 +6395,106 @@
     },
     {
       "check": "Assigned document was read: ce773a48966e4e2491692426de145863",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run lifecycle: d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
+    },
+    {
+      "check": "Audit/API call reconciliation: d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sequential call indices: d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run identity and configuration: d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trap audit reconciliation: d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result schema: Final answer d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result reconciles to every API call: Final answer d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result trap flag matches run log: Final answer d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result filename matches API calls: Final answer d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Assigned document was read: d403e2aaae63434899a13e4fd4ab9dad",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run lifecycle: da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": "starts=1, finals=1, failures=0, calls=2, HTTP errors=0, explained interruptions=0"
+    },
+    {
+      "check": "Audit/API call reconciliation: da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Sequential call indices: da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Run identity and configuration: da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Trap audit reconciliation: da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result schema: Final answer da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result reconciles to every API call: Final answer da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result trap flag matches run log: Final answer da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Result filename matches API calls: Final answer da569a0d84194e32b61a21ab1a29ab6f",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Assigned document was read: da569a0d84194e32b61a21ab1a29ab6f",
       "passed": true,
       "detail": ""
     },
@@ -10099,67 +10549,67 @@
       "detail": ""
     },
     {
-      "check": "Result schema: red_team_results.json/a02_email_header_payment.eml/undefended",
+      "check": "Result schema: red_team_results.json/a02_email_header_price.eml/undefended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Result reconciles to every API call: red_team_results.json/a02_email_header_payment.eml/undefended",
+      "check": "Result reconciles to every API call: red_team_results.json/a02_email_header_price.eml/undefended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Result trap flag matches run log: red_team_results.json/a02_email_header_payment.eml/undefended",
+      "check": "Result trap flag matches run log: red_team_results.json/a02_email_header_price.eml/undefended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Result filename matches API calls: red_team_results.json/a02_email_header_payment.eml/undefended",
+      "check": "Result filename matches API calls: red_team_results.json/a02_email_header_price.eml/undefended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Unedited final-answer reference: red_team_results.json/a02_email_header_payment.eml/undefended",
+      "check": "Unedited final-answer reference: red_team_results.json/a02_email_header_price.eml/undefended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Independent answer-key comparison: red_team_results.json/a02_email_header_payment.eml/undefended",
+      "check": "Independent answer-key comparison: red_team_results.json/a02_email_header_price.eml/undefended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Result schema: red_team_results.json/a02_email_header_payment.eml/defended",
+      "check": "Result schema: red_team_results.json/a02_email_header_price.eml/defended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Result reconciles to every API call: red_team_results.json/a02_email_header_payment.eml/defended",
+      "check": "Result reconciles to every API call: red_team_results.json/a02_email_header_price.eml/defended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Result trap flag matches run log: red_team_results.json/a02_email_header_payment.eml/defended",
+      "check": "Result trap flag matches run log: red_team_results.json/a02_email_header_price.eml/defended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Result filename matches API calls: red_team_results.json/a02_email_header_payment.eml/defended",
+      "check": "Result filename matches API calls: red_team_results.json/a02_email_header_price.eml/defended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Unedited final-answer reference: red_team_results.json/a02_email_header_payment.eml/defended",
+      "check": "Unedited final-answer reference: red_team_results.json/a02_email_header_price.eml/defended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Independent answer-key comparison: red_team_results.json/a02_email_header_payment.eml/defended",
+      "check": "Independent answer-key comparison: red_team_results.json/a02_email_header_price.eml/defended",
       "passed": true,
       "detail": ""
     },
     {
-      "check": "Final defended configuration: red_team_results.json/a02_email_header_payment.eml/defended",
+      "check": "Final defended configuration: red_team_results.json/a02_email_header_price.eml/defended",
       "passed": true,
       "detail": ""
     },
@@ -10519,6 +10969,111 @@
       "detail": ""
     },
     {
+      "check": "JSON: output/red_team_provenance.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team provenance version and method",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team results hash equals recorded post-run hash",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team evaluation key is unchanged",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team provenance matches all five runtime sources",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team provenance matches the current two attack files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Final red-team runs have four unique identities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team input fingerprints: a01_template_minimum.html/undefended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team actual mode and layers: a01_template_minimum.html/undefended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Final red-team responses are fresh: a01_template_minimum.html/undefended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team input fingerprints: a01_template_minimum.html/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team actual mode and layers: a01_template_minimum.html/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Final red-team responses are fresh: a01_template_minimum.html/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team correctness after defense: a01_template_minimum.html/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team input fingerprints: a02_email_header_price.eml/undefended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team actual mode and layers: a02_email_header_price.eml/undefended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Final red-team responses are fresh: a02_email_header_price.eml/undefended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team input fingerprints: a02_email_header_price.eml/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team actual mode and layers: a02_email_header_price.eml/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Final red-team responses are fresh: a02_email_header_price.eml/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Red-team correctness after defense: a02_email_header_price.eml/defended",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Final exam has no reused response IDs",
       "passed": true,
       "detail": ""
@@ -10527,6 +11082,7 @@
   "notes": [
     "Runtime source scan covers local modules reachable from agent.py: agent.py, models.py, policy.py, tools.py",
     "7 historical response identifiers were returned more than once across distinct runs. Their matching returned usage is retained and documented; sums of those rows are not unique upstream billing.",
+    "Run 49bff1cf6d6f41938d7bc1d14e3c59e7 failed with HTTP status 400 and has no successful API response or final answer; token usage and cost are unavailable, not zero.",
     "Run 637940d37aa54718a84ecac6d777c681 contains 1 recorded failure(s); costs remain in usage evidence.",
     "Run 9a8e4dbe2d0d4e27b72d2c17dcd5d7b2 was interrupted without a returned API response or final answer; token usage and cost are unavailable, not zero.",
     "Run e9be77b05104466c8ae39b01b67d42a4 failed with HTTP status 400 and has no successful API response or final answer; token usage and cost are unavailable, not zero.",

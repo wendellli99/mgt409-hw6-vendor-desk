@@ -1,0 +1,22 @@
+{
+  "source_commit": "42a9c2ba46d8585deb33c8d0bbc5451188d5e004",
+  "original_files": {
+    "data/my_attacks/a01_template_minimum.html": "cd08f88e1ea0de5074bf080f15de39ad51e3b93fc1bd61bf450562684dc6c8c9",
+    "data/my_attacks/a02_email_header_payment.eml": "69bd2cceb95cda8a9030e4bf11bace7626d0f6a08aee33b6b3db78f58f2a3daf",
+    "output/red_team_results.json": "3868b17d7f2ddc4753344f286304f06c76ff7c686490ed1533cd176a0cef0cf3",
+    "output/red_team_key.json": "9a86a2caf6b4f054552ed1611a292b793fc218b2798bbd7b91b042205994b570",
+    "output/red_team_design.md": "3900a275f85058100f21d1273cae3a323b243e4db0bfc7c2b11646c8ab2debee",
+    "output/red_team.md": "7e7d1e4b493f0d546d8aaeee179781acd4a56178f52683e6efd113616cb8e5b4"
+  },
+  "unchanged_files": {
+    "AI_prompts.md": "2fa967a80cb01a92726098be9d7c65dd2c1f7fdccd8e31d70171d5d266720160",
+    "prompts/prompt.md": "7ba53c6fd7781b2e5c0e05e05acd664a9cc56da5b8c664956d3cb2e3aaaf7cf7",
+    "agent.py": "147bf8ccb736f8e4644a9f51d2f7b1eb3becd6175c05662b60483ea2bf87fcdf",
+    "tools.py": "a4c1a67d5fd59d71e342c7a80576c8f07d74a32408fd4a13a0142a99e3c72123",
+    "models.py": "9b8d8bfd10fae14c36b0a06be165361f219cff989756cb2a40c2b92025ff70d6",
+    "policy.py": "09ab51eee1f7f2ccb345ea95b4858e41578095265e9fc263d5db86b18d7095f8",
+    "output/exam_results.json": "af27c3bfd9f7adc9cbc68ae0c2390d9123760d6380c30630c601da391c0b0d27",
+    "output/cache_test.json": "8995711004272d2647a27bbb46945155791c3c57bb5f4a8f98afa492ce720cd8",
+    "output/defense_results.json": "448fe7d129ceb4725d685dbbddcd44c891025a051e36b2cd5e4f0a1381efc2f5"
+  }
+}

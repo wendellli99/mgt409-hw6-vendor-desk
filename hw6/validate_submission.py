@@ -36,7 +36,7 @@ REQUIRED = (
     "output/cache_test.md", "output/cache_documents.json", "output/attack_results.json",
     "output/attack_results.md", "output/defense_results.json", "output/defense_results.md",
     "output/defense_ablation.json", "output/red_team.md", "output/red_team_results.json",
-    "output/red_team_key.json", "output/exam_results.json", "output/exam_provenance.json",
+    "output/red_team_key.json", "output/red_team_provenance.json", "output/exam_results.json", "output/exam_provenance.json",
     "output/hw6_report.html", "output/smoke_results.json",
 )
 
@@ -337,6 +337,7 @@ class Audit:
                 if name == "defense_results.json":
                     self.check(f"Practice correctness after defense: {label}", row.get("fooled") is False)
         self.provenance()
+        self.red_team_provenance(self.load("output/red_team_results.json"), usage, attacks)
         final_exam_runs = {r.get("run_id") for r in self.load("output/exam_results.json") if isinstance(r, dict)}
         final_exam_calls = [c for c in usage if isinstance(c, dict) and c.get("run_id") in final_exam_runs]
         self.check("Final exam has no reused response IDs", bool(final_exam_calls)
@@ -419,6 +420,47 @@ class Audit:
             self.check(f"Exam runtime hash unchanged: {relative}", path.is_relative_to(self.root) and path.is_file()
                        and hashlib.sha256(path.read_bytes()).hexdigest() == checksum)
         self.check("No hidden exam answer key included", not any(self.root.rglob("exam_key.json")))
+
+    def red_team_provenance(self, rows: list, usage: list, attacks: set[str]):
+        evidence = self.load("output/red_team_provenance.json", dict)
+        checksum = lambda path: hashlib.sha256(path.read_bytes()).hexdigest() if path.is_file() else None
+        expected_sources = {"agent.py", "tools.py", "models.py", "policy.py", "prompts/prompt.md"}
+        current_sources = {name: checksum(self.root / name) for name in expected_sources}
+        current_documents = {name: checksum(self.root / "data/my_attacks" / name) for name in attacks}
+        key_hash = checksum(self.root / "output/red_team_key.json")
+        self.check("Red-team provenance version and method", evidence.get("version") == 1
+                   and isinstance(evidence.get("method"), str) and bool(evidence.get("method", "").strip()))
+        self.check("Red-team results hash equals recorded post-run hash", bool(rows)
+                   and evidence.get("results_sha256") == checksum(self.root / "output/red_team_results.json"))
+        self.check("Red-team evaluation key is unchanged", bool(key_hash) and evidence.get("evaluation_key_sha256") == key_hash)
+        self.check("Red-team provenance matches all five runtime sources", all(current_sources.values())
+                   and evidence.get("source_hashes") == current_sources)
+        self.check("Red-team provenance matches the current two attack files", len(attacks) == 2
+                   and all(current_documents.values()) and evidence.get("document_hashes") == current_documents)
+        identities = [row.get("run_id") for row in rows if isinstance(row, dict)]
+        self.check("Final red-team runs have four unique identities", len(identities) == 4
+                   and len(set(identities)) == 4 and all(identities))
+        response_counts = Counter(call.get("response_id") for call in usage if isinstance(call, dict))
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            label = f"{row.get('file')}/{row.get('mode')}"
+            mode = row.get("mode")
+            calls = [call for call in usage if isinstance(call, dict) and call.get("run_id") == row.get("run_id")]
+            self.check(f"Red-team input fingerprints: {label}", row.get("file") in attacks
+                       and row.get("document_sha256") == current_documents.get(row.get("file"))
+                       and row.get("evaluation_key_sha256") == key_hash
+                       and row.get("runtime_source_hashes") == current_sources)
+            expected_layers = [] if mode == "undefended" else STAGES["code_design_prompt"]
+            self.check(f"Red-team actual mode and layers: {label}", mode in {"undefended", "defended"} and bool(calls)
+                       and all(call.get("layers") == expected_layers and call.get("experiment") == "red_team_" + mode
+                               for call in calls))
+            self.check(f"Final red-team responses are fresh: {label}", bool(calls)
+                       and all(bool(call.get("response_id")) and response_counts[call["response_id"]] == 1
+                               and call.get("gateway_force_refresh_requested") is True
+                               and call.get("gateway_cache_status") == "REFRESH" for call in calls))
+            if mode == "defended":
+                self.check(f"Red-team correctness after defense: {label}", row.get("fooled") is False)
 
 
 def main():

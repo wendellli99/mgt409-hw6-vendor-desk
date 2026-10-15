@@ -333,8 +333,12 @@ def build_report(output_dir: Path) -> Path:
         previous = means
     ablation_observation = ("Code preprocessing already passed all 12 practice checks. The design and prompt layers prevented no additional observed failures on this set; their structural safeguards still apply. "
                             if stage_passes["code"] == stage_passes["code_design"] == stage_passes["code_design_prompt"] == 12 else "")
-    red_observation = ("Both custom attacks were resisted by the undefended agent as well as the final agent. They demonstrate no additional measured prevention from the defenses. "
-                       if all(pass_result(row) for row in red) else "")
+    red_before_failures = sum(not pass_result(row) for row in red_baseline)
+    red_after_failures = sum(not pass_result(row) for row in red_defended)
+    red_observation = (f"The revised attacks fooled the unchanged undefended agent in {red_before_failures}/2 final runs; "
+                       f"the defended agent failed {red_after_failures}/2. The HTML targets the minimum order and the email targets the unit price. "
+                       "Both visible quotes remain unchanged. Original unsuccessful attacks and development trials are preserved separately; "
+                       "the pairs below use fresh responses from the exact final files.")
 
     exam_rows = []
     for row in sorted(exam, key=lambda entry: entry["file"]):

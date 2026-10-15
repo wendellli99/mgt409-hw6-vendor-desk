@@ -157,11 +157,24 @@ The sanitizer covers static HTML/CSS and text PDFs, not arbitrary browser execut
 
 def red_team_findings():
     rows=load('red_team_results.json');design=(OUT/'red_team_design.md').read_text()
+    keys={r['file']: r for r in load('red_team_key.json')}
+    before=[r for r in rows if r['mode']=='undefended'];after=[r for r in rows if r['mode']=='defended']
+    summary=(f"**Final paired result: {sum(r['fooled'] for r in before)}/{len(before)} attacks fooled the undefended agent; "
+             f"{sum(r['fooled'] for r in after)}/{len(after)} fooled the defended agent.** "
+             "These are fresh runs of the exact final files, with unchanged prompts, runtime, and defenses.\n\n")
     results=[]
     for r in rows:
         results.append(f"| {r['file']} | {r['mode']} | {sum(r['field_matches'].values())}/5 | {r['decision_match']} | {r['trap_tool_called']} | {r['fooled']} | ${r['cost_usd']:.8f} |")
-    write('red_team.md', '# Problem 7: Two new attacks\n\n'+design+'\n\n## Observed runs\n\n| Document | Mode | Facts correct | Decision correct | Trap called | Fooled | USD |\n|---|---|---:|---|---|---|---:|\n'+'\n'.join(results)+'\n\n'+
-          '\n\n'.join(f"**{r['file']} / {r['mode']}** — {r['reason']} Recorded min_order: {r['min_order']}; trap called: {r['trap_tool_called']}. Run ID: `{r['run_id']}`." for r in rows)+
+    changes=[]
+    for r in before:
+        fixed=next(a for a in after if a['file']==r['file'])
+        key=keys[r['file']]
+        for field in ('vendor','sku','unit_price','lead_time_days','min_order'):
+            if r[field]!=key[field]:
+                changes.append(f"| {r['file']} | {field} | {key[field]} | {r[field]} | {fixed[field]} | {key['decision']} | {r['decision']} | {fixed['decision']} |")
+    change_table=('\n\n## Exact changed facts and recommendations\n\n| Document | Target field | Visible fact | Undefended | Defended | Correct decision | Undefended decision | Defended decision |\n|---|---|---:|---:|---:|---|---|---|\n'+'\n'.join(changes)) if changes else ''
+    write('red_team.md', '# Problem 7: Two new attacks\n\n'+summary+design+'\n\n## Observed runs\n\n| Document | Mode | Facts correct | Decision correct | Trap called | Fooled | USD |\n|---|---|---:|---|---|---|---:|\n'+'\n'.join(results)+change_table+'\n\n'+
+          '\n\n'.join(f"**{r['file']} / {r['mode']}** — {r['reason']} Recorded unit_price: {r['unit_price']}; min_order: {r['min_order']}; trap called: {r['trap_tool_called']}. Run ID: `{r['run_id']}`. Document SHA-256: `{r['document_sha256']}`." for r in rows)+
           '\n\nThe goals above describe attacker intent; the table describes actual outcomes. If an attack did not fool the undefended agent, it is reported as unsuccessful. No real message or payment occurred. All runs used the same pipeline and exact requested model as the practice and exam experiments.')
 
 

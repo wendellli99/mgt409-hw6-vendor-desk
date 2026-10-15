@@ -12,6 +12,7 @@ FACTS = ('vendor', 'sku', 'unit_price', 'lead_time_days', 'min_order')
 STAGES = {'baseline': frozenset(), 'code': frozenset({'code'}),
           'code_design': frozenset({'code', 'design'}),
           'code_design_prompt': frozenset({'code', 'design', 'prompt'})}
+RUNTIME_SOURCES = ('agent.py', 'tools.py', 'models.py', 'policy.py', 'prompts/prompt.md')
 
 
 def save(name, data):
@@ -21,6 +22,30 @@ def save(name, data):
 def read(name, fallback=None):
     path = OUTPUT / name
     return json.loads(path.read_text()) if path.exists() else fallback
+
+
+def sha256(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def red_team_inputs(doc):
+    """Fingerprint all inputs before inference so changed files cannot resume."""
+    return {'document_sha256': sha256(doc),
+            'evaluation_key_sha256': sha256(OUTPUT / 'red_team_key.json'),
+            'runtime_source_hashes': {name: sha256(ROOT / name) for name in RUNTIME_SOURCES}}
+
+
+def check_red_team_resume(results, documents):
+    expected = {(mode, doc.name): red_team_inputs(doc)
+                for doc in documents for mode in ('undefended', 'defended')}
+    seen = set()
+    for row in results:
+        identity = (row.get('mode'), row.get('file')) if isinstance(row, dict) else None
+        if identity not in expected or identity in seen:
+            raise RuntimeError('Red-team results have an unexpected or duplicate identity; archive them before rerunning.')
+        seen.add(identity)
+        if any(row.get(key) != value for key, value in expected[identity].items()):
+            raise RuntimeError('Red-team inputs changed or lack provenance; archive the old results before rerunning.')
 
 
 def compare(result, key):
@@ -77,14 +102,29 @@ async def run_suite(suite):
         if isinstance(attack_keys, dict):
             attack_keys = list(attack_keys.values())
         by_name = {r['file']: r for r in attack_keys}
-        for doc in sorted(p for p in (ROOT / 'data/my_attacks').iterdir() if p.suffix.lower() in {'.html', '.pdf', '.eml'}):
+        documents = sorted(p for p in (ROOT / 'data/my_attacks').iterdir() if p.suffix.lower() in {'.html', '.pdf', '.eml'})
+        if len(documents) != 2 or set(by_name) != {p.name for p in documents} or len(attack_keys) != 2:
+            raise RuntimeError('Red-team evaluation requires exactly two documents and their two matching keys.')
+        check_red_team_resume(results, documents)
+        for doc in documents:
             for mode in ['undefended','defended']:
                 if any(r['mode']==mode and r['file']==doc.name for r in results):
                     continue
+                inputs = red_team_inputs(doc)
                 result = await run_document(doc, layers=STAGES['baseline' if mode=='undefended' else 'code_design_prompt'],experiment='red_team_'+mode)
-                results.append({**compare(result, by_name[doc.name]), 'mode': mode, 'attack_id': doc.stem[:3]})
+                if red_team_inputs(doc) != inputs:
+                    raise RuntimeError('Red-team inputs changed during inference; raw logs retained, result not accepted.')
+                results.append({**compare(result, by_name[doc.name]), 'mode': mode, 'attack_id': doc.stem[:3], **inputs})
                 save('red_team_results.json', results)
                 print('red_team',mode,doc.name,'fooled',results[-1]['fooled'],flush=True)
+        check_red_team_resume(results, documents)
+        save('red_team_provenance.json', {
+            'version': 1,
+            'method': 'Exact input bytes fingerprinted before and after each unchanged run_document invocation; comparisons added only after inference.',
+            'results_sha256': sha256(OUTPUT / 'red_team_results.json'),
+            'evaluation_key_sha256': sha256(OUTPUT / 'red_team_key.json'),
+            'source_hashes': {name: sha256(ROOT / name) for name in RUNTIME_SOURCES},
+            'document_hashes': {doc.name: sha256(doc) for doc in documents}})
     elif suite == 'exam':
         results = read('exam_results.json', [])
         for doc in sorted(p for p in (ROOT / 'data/exam_docs').iterdir() if p.suffix.lower() in {'.html', '.pdf', '.eml'}):
